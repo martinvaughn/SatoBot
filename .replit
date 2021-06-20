@@ -1,0 +1,7 @@
+run="python ./src/main.py"
+language="python3"
+onBoot="echo Booting up!"
+
+[packager]
+afterInstall="date >> package_install_log"
+ignoredPaths=[".git"]
