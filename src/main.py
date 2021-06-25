@@ -5,16 +5,26 @@ from discord.ext.commands import MemberConverter, has_permissions, CommandNotFou
 from discord.utils import get
 import helper
 import elo
+import logging
+
+
+logging.basicConfig(filename="main.log",
+                    format='%(asctime)s %(message)s',)
+logger = logging.getLogger()
+logger.setLevel(20)
+
+logger.warning("Main initializing.")
 
 COUNT = 0
 TEN_MIN = 600  # 10 minutes in seconds
-CHANNEL_ID = 850867690318200833  # ID of channel to send messages.
+CHANNEL_ID = 850867690318200833  # ID of channel to send most messages.
+RESULTS_ID = 858081752421236836 # ID of channel to send results.
 GUILD_ID = 848422158857142323
 NAME_CHANGE_QUEUE = []  # IDs of names that can be changed
 MESSAGE_CAN_DELETE = {}  # Messages that can be deleted by the bot.
 MESSAGE_CAN_DELETE_DISPUTES = []  # Same as ^ but also for disputed messages.
 CAN_ADD_IDS = []  # List of IDs of who can have Elo added. Only people who've played can have elo added.
-TIME_DELETE = 10  # 86400 seconds == 24 hours
+TIME_DELETE = 90  # 86400 seconds == 24 hours
 
 Intents = discord.Intents()
 intents = Intents.all()
@@ -34,7 +44,7 @@ async def send_dm(member: discord.Member, content):
 
 @client.command()
 async def send_dispute_message(winner: discord.Member, loser: discord.Member):
-    channel = client.get_channel(CHANNEL_ID)
+    channel = client.get_channel(RESULTS_ID)
     await channel.send(f"{loser.mention} disputes that {winner.mention} beat them. Calling Admin to chat.")
 
 
@@ -57,11 +67,12 @@ async def send_dm_to_loser(winner: discord.Member, loser: discord.Member):
     except:
         await send_channel_message(loser, f"Unable to send dm to {loser.mention}. Adding points automatically.")
         await update_elo(winner, loser)
+        logger.warning(f"Unable to send message to {loser.name}, points added to {winner.name}")
 
     MESSAGE_CAN_DELETE[message.id] = loser
     await message.add_reaction('✅')
     await message.add_reaction('❌')
-    await send_channel_message(loser, f"Confirmation message sent to {loser.mention}. Waiting for response.")
+    await send_channel_message(loser, f"Confirmation DM sent to {loser.mention}. Waiting for response.")
 
 
 @client.event
@@ -146,7 +157,7 @@ async def on_member_update(before, after):
     try:
         old_brackets = helper.find_name_brackets(before.nick)
     except:
-        print("Old brackets was None. Either hacker or 2nd time round. \n")
+        logger.warning(f"User name: {before.name} has no brackets.")
     if old_brackets is None:
         old_brackets = "[0]"
 
@@ -159,7 +170,8 @@ async def on_member_update(before, after):
             NAME_CHANGE_QUEUE.append(before.id)
             await after.edit(nick=after.name + old_brackets)
             await send_dm(before,
-                          "It looks you tried to remove your nickname, so we added your points back. \n\nIf you'd like to be removed from the elo scoring, please contact an Admin.")
+                          "It looks you like tried to remove your nickname, so we added your points back.\nIf you'd like to be removed from the elo scoring, please contact an Admin.")
+            logger.warning(f"User name: {before.name} attempted to remove nickname")
             return
 
     cleaned = helper.check_name_length(cleaned)

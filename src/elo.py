@@ -13,21 +13,21 @@ ROLES = [
     855641875972882443,  # BRONZE
     855641806758477844,  # SILVER
     855641716164919356,  # CHAMPION
-    888,
+    856066147438952478,  # LEGEND
 ]
 
 
 def get_role_id(score):
-    if score < 500:
+    if score < 100:
         return ROLES[0]
-    elif score < 1000:
+    elif score < 200:
         return ROLES[1]
-    elif score < 1800:
+    elif score < 300:
         return ROLES[2]
-    elif score < 2400:
+    elif score < 400:
         return ROLES[3]
     else:
-        return ROLES[4]
+        return ROLES[3]
 
 
 def calc_elo(winner, loser):

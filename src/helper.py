@@ -1,4 +1,11 @@
 import re
+import logging
+
+
+logging.basicConfig(filename="main.log",
+                    format='%(asctime)s %(message)s',)
+logger = logging.getLogger()
+logger.warning("Helper initializing.")
 
 def str_extract(string, regex, ignore_case = False):
     if ignore_case:
@@ -9,24 +16,28 @@ def str_extract(string, regex, ignore_case = False):
         return
     return match.group(0)
 
+
 def extract_id_from_message(id):
   str1 = str_extract(id, r'\<\@\!?([^\>]+)\>')
   str2 = str_extract(str1, r'\d+')
   return int(str2)
 
+
 def new_name(member, elo):
-  print("\nPre shortned: ", member.nick)
+  logger.warning(f"{member.nick} about to be added elo.")
   no_brackets = purge_name_brackets(member.nick)
   temp_name = check_name_length(no_brackets)
-  print("Shortened NAME: ", temp_name)
   new_name = temp_name + "[" + str(elo) + "]"
-  print(new_name)
+  logger.warning(f"{member.nick} name after elo added: {new_name}")
   return new_name
+
 
 def check_name_length(name):
   if len(name) > 24:
+    logger.warning(f"Name {str(name)} was too long, being shortened.")
     name = name[:24]
   return name
+
 
 def find_name_brackets(name):
   try:
@@ -34,6 +45,7 @@ def find_name_brackets(name):
     return x
   except:
     return None
+
 
 def purge_name_brackets(name):
   name = name.split("[", 1)[0]

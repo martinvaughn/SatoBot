@@ -1,0 +1,990 @@
+2021-06-20 09:10:37,597 Helper initializing.
+2021-06-20 09:10:37,598 Main initializing.
+2021-06-20 09:10:37,628 PyNaCl is not installed, voice will NOT be supported
+2021-06-20 09:10:37,631 logging in using static token
+2021-06-20 09:10:37,863 Shard ID None has sent the IDENTIFY payload.
+2021-06-20 09:10:38,063 Shard ID None has connected to Gateway: ["gateway-prd-main-5skm",{"micros":163106,"calls":["discord-sessions-blue-prd-2-90",{"micros":160831,"calls":["start_session",{"micros":68988,"calls":["api-prd-main-vps7",{"micros":58365,"calls":["get_user",{"micros":8491},"add_authorized_ip",{"micros":3125},"get_guilds",{"micros":4914},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":44834,"calls":[]}]}]}] (Session ID: e8bce862888a649bdf8037c67bea41bf).
+2021-06-20 09:10:42,619 aaaa[5] about to be added elo.
+2021-06-20 09:10:42,619 aaaa[5] name after elo added: aaaa[25]
+2021-06-20 09:10:42,619 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:10:42,619 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:10:42,779 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:11:06,082 aaaa[25] about to be added elo.
+2021-06-20 09:11:06,083 aaaa[25] name after elo added: aaaa[44]
+2021-06-20 09:11:06,083 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:11:06,083 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:11:06,265 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:12:15,180 Helper initializing.
+2021-06-20 09:12:15,181 Main initializing.
+2021-06-20 09:12:15,208 PyNaCl is not installed, voice will NOT be supported
+2021-06-20 09:12:15,211 logging in using static token
+2021-06-20 09:12:15,428 Shard ID None has sent the IDENTIFY payload.
+2021-06-20 09:12:15,522 Shard ID None has connected to Gateway: ["gateway-prd-main-0q72",{"micros":55328,"calls":["discord-sessions-blue-prd-2-29",{"micros":54205,"calls":["start_session",{"micros":50103,"calls":["api-prd-main-zc1z",{"micros":45252,"calls":["get_user",{"micros":5690},"add_authorized_ip",{"micros":1580},"get_guilds",{"micros":5277},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":3386,"calls":[]}]}]}] (Session ID: 4b9bcff749021e2b6c97f321741f3fd1).
+2021-06-20 09:12:36,582 aaaa[44] about to be added elo.
+2021-06-20 09:12:36,582 aaaa[44] name after elo added: aaaa[61]
+2021-06-20 09:12:36,582 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:12:36,583 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:12:36,812 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:13:13,875 aaaa[61] about to be added elo.
+2021-06-20 09:13:13,875 aaaa[61] name after elo added: aaaa[78]
+2021-06-20 09:13:13,876 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:13:13,876 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:13:14,062 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:13:43,886 aaaa[78] about to be added elo.
+2021-06-20 09:13:43,887 aaaa[78] name after elo added: aaaa[94]
+2021-06-20 09:13:43,887 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:13:43,887 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:13:44,055 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:13:55,346 aaaa[94] about to be added elo.
+2021-06-20 09:13:55,346 aaaa[94] name after elo added: aaaa[109]
+2021-06-20 09:13:55,346 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:13:55,347 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:13:55,503 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:14:17,758 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:14:17,759 this name is to b long 2[0] name after elo added: this name is to b long 2[26]
+2021-06-20 09:14:17,759 aaaa[109] about to be added elo.
+2021-06-20 09:14:17,759 aaaa[109] name after elo added: aaaa[83]
+2021-06-20 09:16:53,519 aaaa[83] about to be added elo.
+2021-06-20 09:16:53,519 aaaa[83] name after elo added: aaaa[98]
+2021-06-20 09:16:53,519 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:16:53,520 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:16:53,708 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:16:54,347 aaaa[98] about to be added elo.
+2021-06-20 09:16:54,347 aaaa[98] name after elo added: aaaa[113]
+2021-06-20 09:16:54,347 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:16:54,347 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:16:54,407 aaaa[98] about to be added elo.
+2021-06-20 09:16:54,407 aaaa[98] name after elo added: aaaa[113]
+2021-06-20 09:16:54,407 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:16:54,407 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:16:54,468 aaaa[113] about to be added elo.
+2021-06-20 09:16:54,468 aaaa[113] name after elo added: aaaa[127]
+2021-06-20 09:16:54,468 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:16:54,468 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:16:54,616 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:16:54,677 aaaa[113] about to be added elo.
+2021-06-20 09:16:54,677 aaaa[113] name after elo added: aaaa[127]
+2021-06-20 09:16:54,677 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:16:54,677 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:16:54,860 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:16:55,060 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:16:55,123 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:16:58,984 aaaa[127] about to be added elo.
+2021-06-20 09:16:58,985 aaaa[127] name after elo added: aaaa[140]
+2021-06-20 09:16:58,985 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:16:58,985 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:16:59,252 aaaa[127] about to be added elo.
+2021-06-20 09:16:59,253 aaaa[127] name after elo added: aaaa[140]
+2021-06-20 09:16:59,253 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:16:59,253 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:16:59,423 aaaa[127] about to be added elo.
+2021-06-20 09:16:59,424 aaaa[127] name after elo added: aaaa[140]
+2021-06-20 09:16:59,424 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:16:59,424 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:16:59,554 aaaa[127] about to be added elo.
+2021-06-20 09:16:59,555 aaaa[127] name after elo added: aaaa[140]
+2021-06-20 09:16:59,555 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:16:59,555 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:00,056 aaaa[127] about to be added elo.
+2021-06-20 09:17:00,057 aaaa[127] name after elo added: aaaa[140]
+2021-06-20 09:17:00,057 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:00,057 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:04,060 aaaa[140] about to be added elo.
+2021-06-20 09:17:04,060 aaaa[140] name after elo added: aaaa[152]
+2021-06-20 09:17:04,060 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:04,060 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:04,230 aaaa[140] about to be added elo.
+2021-06-20 09:17:04,231 aaaa[140] name after elo added: aaaa[152]
+2021-06-20 09:17:04,231 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:04,232 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:04,471 aaaa[140] about to be added elo.
+2021-06-20 09:17:04,471 aaaa[140] name after elo added: aaaa[152]
+2021-06-20 09:17:04,471 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:04,471 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:04,519 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:04,612 aaaa[152] about to be added elo.
+2021-06-20 09:17:04,612 aaaa[152] name after elo added: aaaa[164]
+2021-06-20 09:17:04,612 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:04,613 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:04,724 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:04,849 aaaa[152] about to be added elo.
+2021-06-20 09:17:04,849 aaaa[152] name after elo added: aaaa[164]
+2021-06-20 09:17:04,849 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:04,849 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:05,254 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:09,282 aaaa[152] about to be added elo.
+2021-06-20 09:17:09,282 aaaa[152] name after elo added: aaaa[164]
+2021-06-20 09:17:09,282 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:09,283 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:09,470 aaaa[152] about to be added elo.
+2021-06-20 09:17:09,470 aaaa[152] name after elo added: aaaa[164]
+2021-06-20 09:17:09,470 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:09,470 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:09,632 aaaa[152] about to be added elo.
+2021-06-20 09:17:09,632 aaaa[152] name after elo added: aaaa[164]
+2021-06-20 09:17:09,632 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:09,632 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:09,767 aaaa[152] about to be added elo.
+2021-06-20 09:17:09,767 aaaa[152] name after elo added: aaaa[164]
+2021-06-20 09:17:09,768 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:09,768 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:09,882 aaaa[152] about to be added elo.
+2021-06-20 09:17:09,883 aaaa[152] name after elo added: aaaa[164]
+2021-06-20 09:17:09,888 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:09,889 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:14,046 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:14,111 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:14,439 aaaa[164] about to be added elo.
+2021-06-20 09:17:14,441 aaaa[164] name after elo added: aaaa[175]
+2021-06-20 09:17:14,443 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:14,445 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:14,448 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:14,592 aaaa[164] about to be added elo.
+2021-06-20 09:17:14,593 aaaa[164] name after elo added: aaaa[175]
+2021-06-20 09:17:14,593 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:14,593 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:14,630 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:14,869 aaaa[164] about to be added elo.
+2021-06-20 09:17:14,869 aaaa[164] name after elo added: aaaa[175]
+2021-06-20 09:17:14,869 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:14,870 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:15,030 aaaa[164] about to be added elo.
+2021-06-20 09:17:15,031 aaaa[164] name after elo added: aaaa[175]
+2021-06-20 09:17:15,031 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:15,031 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:15,236 aaaa[164] about to be added elo.
+2021-06-20 09:17:15,236 aaaa[164] name after elo added: aaaa[175]
+2021-06-20 09:17:15,237 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:15,237 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:19,597 aaaa[164] about to be added elo.
+2021-06-20 09:17:19,598 aaaa[164] name after elo added: aaaa[175]
+2021-06-20 09:17:19,598 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:19,598 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:19,783 aaaa[164] about to be added elo.
+2021-06-20 09:17:19,783 aaaa[164] name after elo added: aaaa[175]
+2021-06-20 09:17:19,784 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:19,784 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:19,933 aaaa[164] about to be added elo.
+2021-06-20 09:17:19,934 aaaa[164] name after elo added: aaaa[175]
+2021-06-20 09:17:19,934 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:19,934 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:20,281 aaaa[164] about to be added elo.
+2021-06-20 09:17:20,282 aaaa[164] name after elo added: aaaa[175]
+2021-06-20 09:17:20,282 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:20,282 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:20,511 aaaa[164] about to be added elo.
+2021-06-20 09:17:20,512 aaaa[164] name after elo added: aaaa[175]
+2021-06-20 09:17:20,512 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:20,513 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:24,409 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:24,476 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:24,665 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:24,824 aaaa[175] about to be added elo.
+2021-06-20 09:17:24,825 aaaa[175] name after elo added: aaaa[186]
+2021-06-20 09:17:24,825 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:24,825 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:24,845 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:24,919 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:24,992 aaaa[175] about to be added elo.
+2021-06-20 09:17:24,993 aaaa[175] name after elo added: aaaa[186]
+2021-06-20 09:17:24,993 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:24,993 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:25,195 aaaa[175] about to be added elo.
+2021-06-20 09:17:25,195 aaaa[175] name after elo added: aaaa[186]
+2021-06-20 09:17:25,195 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:25,195 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:25,372 aaaa[175] about to be added elo.
+2021-06-20 09:17:25,372 aaaa[175] name after elo added: aaaa[186]
+2021-06-20 09:17:25,372 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:25,372 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:25,576 aaaa[175] about to be added elo.
+2021-06-20 09:17:25,576 aaaa[175] name after elo added: aaaa[186]
+2021-06-20 09:17:25,576 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:25,577 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:30,030 aaaa[175] about to be added elo.
+2021-06-20 09:17:30,031 aaaa[175] name after elo added: aaaa[186]
+2021-06-20 09:17:30,032 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:30,032 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:34,537 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:35,663 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:35,767 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:44,530 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:44,615 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:45,739 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:46,251 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:54,619 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:54,729 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:54,838 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:54,908 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:54,998 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:55,079 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:55,160 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:55,247 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:55,331 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:55,411 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:17:57,929 aaaa[186] about to be added elo.
+2021-06-20 09:17:57,929 aaaa[186] name after elo added: aaaa[196]
+2021-06-20 09:17:57,929 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:57,929 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:17:59,851 aaaa[186] about to be added elo.
+2021-06-20 09:17:59,851 aaaa[186] name after elo added: aaaa[196]
+2021-06-20 09:17:59,851 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:17:59,851 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:18:00,909 aaaa[186] about to be added elo.
+2021-06-20 09:18:00,911 aaaa[186] name after elo added: aaaa[196]
+2021-06-20 09:18:00,912 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:18:00,913 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:18:02,556 aaaa[186] about to be added elo.
+2021-06-20 09:18:02,556 aaaa[186] name after elo added: aaaa[196]
+2021-06-20 09:18:02,556 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:18:02,557 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:18:04,713 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:18:04,810 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:18:05,599 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:18:05,676 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:18:05,767 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:18:05,878 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:16,548 aaaa[196] about to be added elo.
+2021-06-20 09:19:16,549 aaaa[196] name after elo added: aaaa[206]
+2021-06-20 09:19:16,549 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:16,549 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:16,757 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:18,673 aaaa[206] about to be added elo.
+2021-06-20 09:19:18,674 aaaa[206] name after elo added: aaaa[215]
+2021-06-20 09:19:18,674 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:18,674 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:18,890 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:19,843 aaaa[215] about to be added elo.
+2021-06-20 09:19:19,844 aaaa[215] name after elo added: aaaa[224]
+2021-06-20 09:19:19,844 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:19,844 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:20,022 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:20,935 aaaa[224] about to be added elo.
+2021-06-20 09:19:20,935 aaaa[224] name after elo added: aaaa[233]
+2021-06-20 09:19:20,935 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:20,935 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:21,352 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:22,131 aaaa[233] about to be added elo.
+2021-06-20 09:19:22,131 aaaa[233] name after elo added: aaaa[241]
+2021-06-20 09:19:22,131 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:22,131 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:22,382 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:23,324 aaaa[241] about to be added elo.
+2021-06-20 09:19:23,324 aaaa[241] name after elo added: aaaa[249]
+2021-06-20 09:19:23,324 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:23,324 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:25,994 aaaa[241] about to be added elo.
+2021-06-20 09:19:25,995 aaaa[241] name after elo added: aaaa[249]
+2021-06-20 09:19:25,995 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:25,995 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:27,047 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:27,188 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:27,862 aaaa[249] about to be added elo.
+2021-06-20 09:19:27,862 aaaa[249] name after elo added: aaaa[257]
+2021-06-20 09:19:27,862 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:27,862 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:28,034 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:30,071 aaaa[257] about to be added elo.
+2021-06-20 09:19:30,071 aaaa[257] name after elo added: aaaa[264]
+2021-06-20 09:19:30,071 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:30,071 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:30,287 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:30,904 aaaa[264] about to be added elo.
+2021-06-20 09:19:30,904 aaaa[264] name after elo added: aaaa[271]
+2021-06-20 09:19:30,904 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:30,904 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:31,111 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:32,154 aaaa[271] about to be added elo.
+2021-06-20 09:19:32,154 aaaa[271] name after elo added: aaaa[278]
+2021-06-20 09:19:32,154 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:32,154 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:36,962 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:39,659 aaaa[278] about to be added elo.
+2021-06-20 09:19:39,660 aaaa[278] name after elo added: aaaa[285]
+2021-06-20 09:19:39,660 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:39,660 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:39,905 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:40,310 aaaa[285] about to be added elo.
+2021-06-20 09:19:40,310 aaaa[285] name after elo added: aaaa[291]
+2021-06-20 09:19:40,310 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:40,310 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:40,520 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:40,711 aaaa[291] about to be added elo.
+2021-06-20 09:19:40,719 aaaa[291] name after elo added: aaaa[297]
+2021-06-20 09:19:40,720 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:40,721 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:41,264 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:41,466 aaaa[297] about to be added elo.
+2021-06-20 09:19:41,466 aaaa[297] name after elo added: aaaa[303]
+2021-06-20 09:19:41,466 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:41,466 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:41,642 aaaa[303] about to be added elo.
+2021-06-20 09:19:41,642 aaaa[303] name after elo added: aaaa[309]
+2021-06-20 09:19:41,643 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:41,643 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:41,701 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:45,143 aaaa[303] about to be added elo.
+2021-06-20 09:19:45,143 aaaa[303] name after elo added: aaaa[309]
+2021-06-20 09:19:45,143 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:45,143 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:45,298 aaaa[303] about to be added elo.
+2021-06-20 09:19:45,298 aaaa[303] name after elo added: aaaa[309]
+2021-06-20 09:19:45,298 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:45,298 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:45,746 aaaa[303] about to be added elo.
+2021-06-20 09:19:45,747 aaaa[303] name after elo added: aaaa[309]
+2021-06-20 09:19:45,747 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:45,747 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:46,007 aaaa[303] about to be added elo.
+2021-06-20 09:19:46,007 aaaa[303] name after elo added: aaaa[309]
+2021-06-20 09:19:46,007 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:46,007 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:46,145 aaaa[303] about to be added elo.
+2021-06-20 09:19:46,145 aaaa[303] name after elo added: aaaa[309]
+2021-06-20 09:19:46,145 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:46,145 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:47,604 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:47,675 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:48,029 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:48,103 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:50,169 aaaa[309] about to be added elo.
+2021-06-20 09:19:50,169 aaaa[309] name after elo added: aaaa[315]
+2021-06-20 09:19:50,169 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:50,169 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:50,496 aaaa[309] about to be added elo.
+2021-06-20 09:19:50,496 aaaa[309] name after elo added: aaaa[315]
+2021-06-20 09:19:50,496 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:50,496 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:50,681 aaaa[309] about to be added elo.
+2021-06-20 09:19:50,681 aaaa[309] name after elo added: aaaa[315]
+2021-06-20 09:19:50,702 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:50,702 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:50,889 aaaa[309] about to be added elo.
+2021-06-20 09:19:50,889 aaaa[309] name after elo added: aaaa[315]
+2021-06-20 09:19:50,890 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:50,890 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:51,154 aaaa[309] about to be added elo.
+2021-06-20 09:19:51,154 aaaa[309] name after elo added: aaaa[315]
+2021-06-20 09:19:51,155 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:51,155 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:55,340 aaaa[309] about to be added elo.
+2021-06-20 09:19:55,341 aaaa[309] name after elo added: aaaa[315]
+2021-06-20 09:19:55,341 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:55,341 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:55,473 aaaa[309] about to be added elo.
+2021-06-20 09:19:55,477 aaaa[309] name after elo added: aaaa[315]
+2021-06-20 09:19:55,477 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:55,477 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:55,644 aaaa[309] about to be added elo.
+2021-06-20 09:19:55,645 aaaa[309] name after elo added: aaaa[315]
+2021-06-20 09:19:55,645 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:55,645 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:55,780 aaaa[309] about to be added elo.
+2021-06-20 09:19:55,780 aaaa[309] name after elo added: aaaa[315]
+2021-06-20 09:19:55,780 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:19:55,780 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:19:56,942 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:19:57,025 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:20:07,195 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:20:07,290 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:20:07,363 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:20:07,470 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:20:07,550 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:20:07,639 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:20:07,715 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:20:07,790 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:20:07,898 Unable to send message to ovrpay, points added to Noodles
+2021-06-20 09:20:15,009 aka clout[0] about to be added elo.
+2021-06-20 09:20:15,009 aka clout[0] name after elo added: aka clout[20]
+2021-06-20 09:20:15,009 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:20:15,009 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:20:17,253 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:20:30,863 aka clout[20] about to be added elo.
+2021-06-20 09:20:30,864 aka clout[20] name after elo added: aka clout[39]
+2021-06-20 09:20:30,864 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:20:30,864 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:20:31,068 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:21:47,245 aka clout[39] about to be added elo.
+2021-06-20 09:21:47,246 aka clout[39] name after elo added: aka clout[57]
+2021-06-20 09:21:47,246 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:21:47,247 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:21:47,453 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:21:53,415 Banana Son[0] about to be added elo.
+2021-06-20 09:21:53,416 Banana Son[0] name after elo added: Banana Son[20]
+2021-06-20 09:21:53,416 VuKek [0] about to be added elo.
+2021-06-20 09:21:53,416 VuKek [0] name after elo added: VuKek [0]
+2021-06-20 09:21:54,018 aka clout[57] about to be added elo.
+2021-06-20 09:21:54,019 aka clout[57] name after elo added: aka clout[74]
+2021-06-20 09:21:54,019 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:21:54,019 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:21:54,191 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:22:00,686 aka clout[74] about to be added elo.
+2021-06-20 09:22:00,686 aka clout[74] name after elo added: aka clout[90]
+2021-06-20 09:22:00,686 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:22:00,686 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:22:00,891 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:22:08,118 aka clout[90] about to be added elo.
+2021-06-20 09:22:08,119 aka clout[90] name after elo added: aka clout[105]
+2021-06-20 09:22:08,119 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:22:08,119 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:22:08,315 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:22:14,614 aka clout[105] about to be added elo.
+2021-06-20 09:22:14,615 aka clout[105] name after elo added: aka clout[119]
+2021-06-20 09:22:14,615 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:22:14,615 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:22:14,857 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:22:15,981 VuKek [0] about to be added elo.
+2021-06-20 09:22:15,982 VuKek [0] name after elo added: VuKek [20]
+2021-06-20 09:22:15,982 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:22:15,982 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:22:16,193 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:22:20,599 aka clout[119] about to be added elo.
+2021-06-20 09:22:20,599 aka clout[119] name after elo added: aka clout[132]
+2021-06-20 09:22:20,599 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:22:20,599 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:22:20,773 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:22:27,764 aka clout[132] about to be added elo.
+2021-06-20 09:22:27,764 aka clout[132] name after elo added: aka clout[145]
+2021-06-20 09:22:27,764 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:22:27,764 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:22:27,966 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:22:33,984 aka clout[145] about to be added elo.
+2021-06-20 09:22:33,984 aka clout[145] name after elo added: aka clout[157]
+2021-06-20 09:22:33,984 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:22:33,984 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:22:34,152 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:22:40,535 aka clout[157] about to be added elo.
+2021-06-20 09:22:40,535 aka clout[157] name after elo added: aka clout[169]
+2021-06-20 09:22:40,535 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:22:40,535 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:22:40,699 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:22:49,310 aka clout[169] about to be added elo.
+2021-06-20 09:22:49,310 aka clout[169] name after elo added: aka clout[180]
+2021-06-20 09:22:49,310 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:22:49,310 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:22:49,570 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:22:52,110 VuKek [20] about to be added elo.
+2021-06-20 09:22:52,110 VuKek [20] name after elo added: VuKek [49]
+2021-06-20 09:22:52,111 aka clout[180] about to be added elo.
+2021-06-20 09:22:52,111 aka clout[180] name after elo added: aka clout[151]
+2021-06-20 09:22:55,916 aka clout[151] about to be added elo.
+2021-06-20 09:22:55,916 aka clout[151] name after elo added: aka clout[163]
+2021-06-20 09:22:55,916 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:22:55,917 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:22:56,168 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:23:03,620 aka clout[163] about to be added elo.
+2021-06-20 09:23:03,620 aka clout[163] name after elo added: aka clout[174]
+2021-06-20 09:23:03,620 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:23:03,620 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:23:03,794 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:23:09,862 VuKek [49] about to be added elo.
+2021-06-20 09:23:09,862 VuKek [49] name after elo added: VuKek [76]
+2021-06-20 09:23:09,862 aka clout[174] about to be added elo.
+2021-06-20 09:23:09,862 aka clout[174] name after elo added: aka clout[147]
+2021-06-20 09:23:10,485 aka clout[147] about to be added elo.
+2021-06-20 09:23:10,485 aka clout[147] name after elo added: aka clout[159]
+2021-06-20 09:23:10,485 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:23:10,486 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:23:10,651 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:23:16,669 aka clout[159] about to be added elo.
+2021-06-20 09:23:16,670 aka clout[159] name after elo added: aka clout[170]
+2021-06-20 09:23:16,670 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:23:16,670 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:23:16,858 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:23:23,912 aka clout[170] about to be added elo.
+2021-06-20 09:23:23,912 aka clout[170] name after elo added: aka clout[181]
+2021-06-20 09:23:23,913 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:23:23,913 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:23:24,074 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:23:31,233 aka clout[181] about to be added elo.
+2021-06-20 09:23:31,233 aka clout[181] name after elo added: aka clout[191]
+2021-06-20 09:23:31,233 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:23:31,234 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:23:31,459 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:23:32,197 VuKek [76] about to be added elo.
+2021-06-20 09:23:32,197 VuKek [76] name after elo added: VuKek [102]
+2021-06-20 09:23:32,197 aka clout[191] about to be added elo.
+2021-06-20 09:23:32,198 aka clout[191] name after elo added: aka clout[165]
+2021-06-20 09:23:37,729 aka clout[165] about to be added elo.
+2021-06-20 09:23:37,729 aka clout[165] name after elo added: aka clout[176]
+2021-06-20 09:23:37,730 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:23:37,730 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:23:37,941 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:23:44,946 VuKek [102] about to be added elo.
+2021-06-20 09:23:44,946 VuKek [102] name after elo added: VuKek [116]
+2021-06-20 09:23:44,946 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:23:44,946 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:23:45,164 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:23:50,765 aka clout[176] about to be added elo.
+2021-06-20 09:23:50,765 aka clout[176] name after elo added: aka clout[187]
+2021-06-20 09:23:50,765 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:23:50,765 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:23:50,930 Unable to send message to ovrpay, points added to aka clout
+2021-06-20 09:23:51,203 VuKek [116] about to be added elo.
+2021-06-20 09:23:51,203 VuKek [116] name after elo added: VuKek [130]
+2021-06-20 09:23:51,203 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:23:51,204 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:23:51,389 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:23:56,768 VuKek [130] about to be added elo.
+2021-06-20 09:23:56,769 VuKek [130] name after elo added: VuKek [143]
+2021-06-20 09:23:56,769 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:23:56,769 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:23:56,970 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:24:03,062 VuKek [143] about to be added elo.
+2021-06-20 09:24:03,062 VuKek [143] name after elo added: VuKek [155]
+2021-06-20 09:24:03,062 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:24:03,062 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:24:03,246 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:24:09,318 VuKek [155] about to be added elo.
+2021-06-20 09:24:09,319 VuKek [155] name after elo added: VuKek [167]
+2021-06-20 09:24:09,319 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:24:09,319 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:24:09,558 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:24:15,063 VuKek [167] about to be added elo.
+2021-06-20 09:24:15,064 VuKek [167] name after elo added: VuKek [178]
+2021-06-20 09:24:15,064 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:24:15,064 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:24:15,291 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:24:21,613 VuKek [178] about to be added elo.
+2021-06-20 09:24:21,613 VuKek [178] name after elo added: VuKek [189]
+2021-06-20 09:24:21,613 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:24:21,614 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:24:21,851 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:24:28,767 VuKek [189] about to be added elo.
+2021-06-20 09:24:28,767 VuKek [189] name after elo added: VuKek [199]
+2021-06-20 09:24:28,768 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:24:28,768 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:24:28,978 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:24:35,470 VuKek [199] about to be added elo.
+2021-06-20 09:24:35,471 VuKek [199] name after elo added: VuKek [209]
+2021-06-20 09:24:35,471 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:24:35,471 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:24:35,715 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:24:41,535 VuKek [209] about to be added elo.
+2021-06-20 09:24:41,535 VuKek [209] name after elo added: VuKek [228]
+2021-06-20 09:24:41,535 aka clout[187] about to be added elo.
+2021-06-20 09:24:41,535 aka clout[187] name after elo added: aka clout[168]
+2021-06-20 09:24:53,039 VuKek [228] about to be added elo.
+2021-06-20 09:24:53,040 VuKek [228] name after elo added: VuKek [236]
+2021-06-20 09:24:53,040 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:24:53,040 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:24:53,234 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:24:58,890 VuKek [236] about to be added elo.
+2021-06-20 09:24:58,892 VuKek [236] name after elo added: VuKek [244]
+2021-06-20 09:24:58,892 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:24:58,892 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:24:59,097 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:25:05,220 VuKek [244] about to be added elo.
+2021-06-20 09:25:05,220 VuKek [244] name after elo added: VuKek [252]
+2021-06-20 09:25:05,220 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:25:05,220 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:25:05,442 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:25:10,980 VuKek [252] about to be added elo.
+2021-06-20 09:25:10,980 VuKek [252] name after elo added: VuKek [260]
+2021-06-20 09:25:10,981 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:25:10,981 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:25:11,173 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:25:16,909 VuKek [260] about to be added elo.
+2021-06-20 09:25:16,909 VuKek [260] name after elo added: VuKek [267]
+2021-06-20 09:25:16,909 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:25:16,909 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:25:17,158 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:25:23,345 VuKek [267] about to be added elo.
+2021-06-20 09:25:23,345 VuKek [267] name after elo added: VuKek [274]
+2021-06-20 09:25:23,345 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:25:23,345 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:25:23,555 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:25:25,625 Websocket closed with 1006, attempting a reconnect.
+2021-06-20 09:25:25,626 Got a request to RESUME the websocket.
+2021-06-20 09:25:25,740 Shard ID None has sent the RESUME payload.
+2021-06-20 09:25:25,791 Shard ID None has successfully RESUMED session 4b9bcff749021e2b6c97f321741f3fd1 under trace ["gateway-prd-main-mmn1",{"micros":10916,"calls":["discord-sessions-blue-prd-2-29",{"micros":14}]}].
+2021-06-20 09:25:29,259 VuKek [274] about to be added elo.
+2021-06-20 09:25:29,259 VuKek [274] name after elo added: VuKek [281]
+2021-06-20 09:25:29,260 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:25:29,260 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:25:29,423 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:25:34,965 VuKek [281] about to be added elo.
+2021-06-20 09:25:34,966 VuKek [281] name after elo added: VuKek [288]
+2021-06-20 09:25:34,966 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:25:34,966 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:25:35,213 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:25:41,464 VuKek [288] about to be added elo.
+2021-06-20 09:25:41,464 VuKek [288] name after elo added: VuKek [294]
+2021-06-20 09:25:41,464 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:25:41,464 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:25:41,686 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:25:48,023 VuKek [294] about to be added elo.
+2021-06-20 09:25:48,023 VuKek [294] name after elo added: VuKek [300]
+2021-06-20 09:25:48,024 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:25:48,024 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:25:48,208 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:26:01,534 VuKek [300] about to be added elo.
+2021-06-20 09:26:01,535 VuKek [300] name after elo added: VuKek [306]
+2021-06-20 09:26:01,535 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:26:01,535 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:26:01,734 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:26:09,624 VuKek [306] about to be added elo.
+2021-06-20 09:26:09,624 VuKek [306] name after elo added: VuKek [312]
+2021-06-20 09:26:09,624 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:26:09,624 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:26:09,799 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:26:16,245 VuKek [312] about to be added elo.
+2021-06-20 09:26:16,246 VuKek [312] name after elo added: VuKek [318]
+2021-06-20 09:26:16,246 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:26:16,246 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:26:16,442 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:26:17,045 Banana Son[20] about to be added elo.
+2021-06-20 09:26:17,046 Banana Son[20] name after elo added: Banana Son[39]
+2021-06-20 09:26:17,046 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:26:17,046 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:26:17,253 Unable to send message to ovrpay, points added to Banana Son
+2021-06-20 09:26:22,658 VuKek [318] about to be added elo.
+2021-06-20 09:26:22,658 VuKek [318] name after elo added: VuKek [324]
+2021-06-20 09:26:22,658 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:26:22,659 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:26:22,869 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:26:25,806 Banana Son[39] about to be added elo.
+2021-06-20 09:26:25,806 Banana Son[39] name after elo added: Banana Son[57]
+2021-06-20 09:26:25,806 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:26:25,807 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:26:26,034 Unable to send message to ovrpay, points added to Banana Son
+2021-06-20 09:26:28,321 VuKek [324] about to be added elo.
+2021-06-20 09:26:28,322 VuKek [324] name after elo added: VuKek [329]
+2021-06-20 09:26:28,322 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:26:28,323 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:26:29,151 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:26:35,645 VuKek [329] about to be added elo.
+2021-06-20 09:26:35,645 VuKek [329] name after elo added: VuKek [334]
+2021-06-20 09:26:35,645 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:26:35,646 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:26:35,837 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:26:45,389 Banana Son[57] about to be added elo.
+2021-06-20 09:26:45,390 Banana Son[57] name after elo added: Banana Son[74]
+2021-06-20 09:26:45,390 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:26:45,390 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:26:45,579 Unable to send message to ovrpay, points added to Banana Son
+2021-06-20 09:26:46,696 VuKek [334] about to be added elo.
+2021-06-20 09:26:46,696 VuKek [334] name after elo added: VuKek [339]
+2021-06-20 09:26:46,697 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:26:46,697 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:26:46,928 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:26:54,788 VuKek [339] about to be added elo.
+2021-06-20 09:26:54,788 VuKek [339] name after elo added: VuKek [344]
+2021-06-20 09:26:54,788 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:26:54,788 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:26:55,045 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:27:12,264 Banana Son[74] about to be added elo.
+2021-06-20 09:27:12,264 Banana Son[74] name after elo added: Banana Son[90]
+2021-06-20 09:27:12,264 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:27:12,264 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:27:12,449 Unable to send message to ovrpay, points added to Banana Son
+2021-06-20 09:27:44,135 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:27:44,135 this name is to b long 2[0] name after elo added: this name is to b long 2[35]
+2021-06-20 09:27:44,135 VuKek [344] about to be added elo.
+2021-06-20 09:27:44,135 VuKek [344] name after elo added: VuKek [309]
+2021-06-20 09:27:45,390 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:27:45,390 this name is to b long 2[0] name after elo added: this name is to b long 2[34]
+2021-06-20 09:27:45,391 VuKek [309] about to be added elo.
+2021-06-20 09:27:45,391 VuKek [309] name after elo added: VuKek [275]
+2021-06-20 09:27:46,064 Banana Son[90] about to be added elo.
+2021-06-20 09:27:46,065 Banana Son[90] name after elo added: Banana Son[120]
+2021-06-20 09:27:46,065 VuKek [275] about to be added elo.
+2021-06-20 09:27:46,065 VuKek [275] name after elo added: VuKek [245]
+2021-06-20 09:27:46,575 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:27:46,575 this name is to b long 2[0] name after elo added: this name is to b long 2[32]
+2021-06-20 09:27:46,575 VuKek [245] about to be added elo.
+2021-06-20 09:27:46,575 VuKek [245] name after elo added: VuKek [213]
+2021-06-20 09:28:00,637 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:28:00,637 this name is to b long 2[0] name after elo added: this name is to b long 2[31]
+2021-06-20 09:28:00,637 VuKek [213] about to be added elo.
+2021-06-20 09:28:00,637 VuKek [213] name after elo added: VuKek [182]
+2021-06-20 09:28:01,483 Banana Son[120] about to be added elo.
+2021-06-20 09:28:01,484 Banana Son[120] name after elo added: Banana Son[144]
+2021-06-20 09:28:01,484 VuKek [182] about to be added elo.
+2021-06-20 09:28:01,484 VuKek [182] name after elo added: VuKek [158]
+2021-06-20 09:28:02,011 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:28:02,012 this name is to b long 2[0] name after elo added: this name is to b long 2[29]
+2021-06-20 09:28:02,012 VuKek [158] about to be added elo.
+2021-06-20 09:28:02,012 VuKek [158] name after elo added: VuKek [129]
+2021-06-20 09:28:16,013 Banana Son[144] about to be added elo.
+2021-06-20 09:28:16,014 Banana Son[144] name after elo added: Banana Son[163]
+2021-06-20 09:28:16,014 VuKek [129] about to be added elo.
+2021-06-20 09:28:16,014 VuKek [129] name after elo added: VuKek [110]
+2021-06-20 09:28:17,338 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:28:17,339 this name is to b long 2[0] name after elo added: this name is to b long 2[26]
+2021-06-20 09:28:17,339 VuKek [110] about to be added elo.
+2021-06-20 09:28:17,339 VuKek [110] name after elo added: VuKek [84]
+2021-06-20 09:28:17,871 Banana Son[163] about to be added elo.
+2021-06-20 09:28:17,871 Banana Son[163] name after elo added: Banana Son[179]
+2021-06-20 09:28:17,871 VuKek [84] about to be added elo.
+2021-06-20 09:28:17,872 VuKek [84] name after elo added: VuKek [68]
+2021-06-20 09:28:18,535 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:28:18,535 this name is to b long 2[0] name after elo added: this name is to b long 2[24]
+2021-06-20 09:28:18,535 VuKek [68] about to be added elo.
+2021-06-20 09:28:18,535 VuKek [68] name after elo added: VuKek [44]
+2021-06-20 09:28:20,069 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:28:20,069 this name is to b long 2[0] name after elo added: this name is to b long 2[23]
+2021-06-20 09:28:20,069 VuKek [44] about to be added elo.
+2021-06-20 09:28:20,069 VuKek [44] name after elo added: VuKek [21]
+2021-06-20 09:28:21,227 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:28:21,227 this name is to b long 2[0] name after elo added: this name is to b long 2[21]
+2021-06-20 09:28:21,227 VuKek [21] about to be added elo.
+2021-06-20 09:28:21,227 VuKek [21] name after elo added: VuKek [0]
+2021-06-20 09:28:21,415 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:28:21,415 this name is to b long 2[0] name after elo added: this name is to b long 2[21]
+2021-06-20 09:28:21,415 VuKek [21] about to be added elo.
+2021-06-20 09:28:21,415 VuKek [21] name after elo added: VuKek [0]
+2021-06-20 09:28:55,834 Banana Son[179] about to be added elo.
+2021-06-20 09:28:55,834 Banana Son[179] name after elo added: Banana Son[190]
+2021-06-20 09:28:55,835 VuKek [0] about to be added elo.
+2021-06-20 09:28:55,835 VuKek [0] name after elo added: VuKek [0]
+2021-06-20 09:29:48,465 VuKek [0] about to be added elo.
+2021-06-20 09:29:48,465 VuKek [0] name after elo added: VuKek [30]
+2021-06-20 09:29:48,465 Banana Son[190] about to be added elo.
+2021-06-20 09:29:48,465 Banana Son[190] name after elo added: Banana Son[160]
+2021-06-20 09:29:51,363 VuKek [30] about to be added elo.
+2021-06-20 09:29:51,363 VuKek [30] name after elo added: VuKek [57]
+2021-06-20 09:29:51,363 Banana Son[160] about to be added elo.
+2021-06-20 09:29:51,363 Banana Son[160] name after elo added: Banana Son[133]
+2021-06-20 09:31:00,730 Banana Son[133] about to be added elo.
+2021-06-20 09:31:00,730 Banana Son[133] name after elo added: Banana Son[146]
+2021-06-20 09:31:00,730 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:00,730 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:31:00,903 Unable to send message to ovrpay, points added to Banana Son
+2021-06-20 09:31:15,795 Banana Son[146] about to be added elo.
+2021-06-20 09:31:15,795 Banana Son[146] name after elo added: Banana Son[158]
+2021-06-20 09:31:15,795 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:15,795 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:31:16,031 Unable to send message to ovrpay, points added to Banana Son
+2021-06-20 09:31:25,651 VuKek [57] about to be added elo.
+2021-06-20 09:31:25,651 VuKek [57] name after elo added: VuKek [83]
+2021-06-20 09:31:25,651 Banana Son[158] about to be added elo.
+2021-06-20 09:31:25,651 Banana Son[158] name after elo added: Banana Son[132]
+2021-06-20 09:31:26,488 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:26,489 this name is to b long 2[0] name after elo added: this name is to b long 2[27]
+2021-06-20 09:31:26,489 Banana Son[132] about to be added elo.
+2021-06-20 09:31:26,489 Banana Son[132] name after elo added: Banana Son[105]
+2021-06-20 09:31:27,461 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:27,462 this name is to b long 2[0] name after elo added: this name is to b long 2[26]
+2021-06-20 09:31:27,462 Banana Son[105] about to be added elo.
+2021-06-20 09:31:27,462 Banana Son[105] name after elo added: Banana Son[79]
+2021-06-20 09:31:27,907 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:27,908 this name is to b long 2[0] name after elo added: this name is to b long 2[24]
+2021-06-20 09:31:27,908 Banana Son[79] about to be added elo.
+2021-06-20 09:31:27,908 Banana Son[79] name after elo added: Banana Son[55]
+2021-06-20 09:31:29,709 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:29,709 this name is to b long 2[0] name after elo added: this name is to b long 2[23]
+2021-06-20 09:31:29,709 Banana Son[55] about to be added elo.
+2021-06-20 09:31:29,710 Banana Son[55] name after elo added: Banana Son[32]
+2021-06-20 09:31:30,484 VuKek [83] about to be added elo.
+2021-06-20 09:31:30,484 VuKek [83] name after elo added: VuKek [100]
+2021-06-20 09:31:30,484 Banana Son[32] about to be added elo.
+2021-06-20 09:31:30,485 Banana Son[32] name after elo added: Banana Son[15]
+2021-06-20 09:31:30,987 VuKek [100] about to be added elo.
+2021-06-20 09:31:30,988 VuKek [100] name after elo added: VuKek [115]
+2021-06-20 09:31:30,988 Banana Son[15] about to be added elo.
+2021-06-20 09:31:30,988 Banana Son[15] name after elo added: Banana Son[0]
+2021-06-20 09:31:31,773 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:31,773 this name is to b long 2[0] name after elo added: this name is to b long 2[21]
+2021-06-20 09:31:31,773 Banana Son[15] about to be added elo.
+2021-06-20 09:31:31,773 Banana Son[15] name after elo added: Banana Son[0]
+2021-06-20 09:31:32,419 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:32,420 this name is to b long 2[0] name after elo added: this name is to b long 2[21]
+2021-06-20 09:31:32,420 Banana Son[15] about to be added elo.
+2021-06-20 09:31:32,420 Banana Son[15] name after elo added: Banana Son[0]
+2021-06-20 09:31:33,103 We are being rate limited. Retrying in 1.57 seconds. Handled under the bucket "856101519917318154:None:/channels/{channel_id}/messages/{message_id}"
+2021-06-20 09:31:34,778 VuKek [100] about to be added elo.
+2021-06-20 09:31:34,778 VuKek [100] name after elo added: VuKek [115]
+2021-06-20 09:31:34,778 Banana Son[15] about to be added elo.
+2021-06-20 09:31:34,778 Banana Son[15] name after elo added: Banana Son[0]
+2021-06-20 09:31:35,562 VuKek [100] about to be added elo.
+2021-06-20 09:31:35,562 VuKek [100] name after elo added: VuKek [115]
+2021-06-20 09:31:35,564 Banana Son[15] about to be added elo.
+2021-06-20 09:31:35,564 Banana Son[15] name after elo added: Banana Son[0]
+2021-06-20 09:31:36,418 VuKek [100] about to be added elo.
+2021-06-20 09:31:36,418 VuKek [100] name after elo added: VuKek [115]
+2021-06-20 09:31:36,418 Banana Son[15] about to be added elo.
+2021-06-20 09:31:36,418 Banana Son[15] name after elo added: Banana Son[0]
+2021-06-20 09:31:36,525 VuKek [100] about to be added elo.
+2021-06-20 09:31:36,526 VuKek [100] name after elo added: VuKek [115]
+2021-06-20 09:31:36,526 Banana Son[15] about to be added elo.
+2021-06-20 09:31:36,526 Banana Son[15] name after elo added: Banana Son[0]
+2021-06-20 09:31:36,935 VuKek [115] about to be added elo.
+2021-06-20 09:31:36,935 VuKek [115] name after elo added: VuKek [129]
+2021-06-20 09:31:36,935 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:36,935 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:31:37,240 We are being rate limited. Retrying in 2.50 seconds. Handled under the bucket "856101519917318154:None:/channels/{channel_id}/messages/{message_id}"
+2021-06-20 09:31:39,815 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:39,815 this name is to b long 2[0] name after elo added: this name is to b long 2[20]
+2021-06-20 09:31:39,815 Banana Son[0] about to be added elo.
+2021-06-20 09:31:39,815 Banana Son[0] name after elo added: Banana Son[0]
+2021-06-20 09:31:39,904 VuKek [129] about to be added elo.
+2021-06-20 09:31:39,904 VuKek [129] name after elo added: VuKek [142]
+2021-06-20 09:31:39,904 Banana Son[0] about to be added elo.
+2021-06-20 09:31:39,904 Banana Son[0] name after elo added: Banana Son[0]
+2021-06-20 09:31:41,066 VuKek [129] about to be added elo.
+2021-06-20 09:31:41,066 VuKek [129] name after elo added: VuKek [142]
+2021-06-20 09:31:41,067 Banana Son[0] about to be added elo.
+2021-06-20 09:31:41,068 Banana Son[0] name after elo added: Banana Son[0]
+2021-06-20 09:31:41,821 VuKek [129] about to be added elo.
+2021-06-20 09:31:41,822 VuKek [129] name after elo added: VuKek [142]
+2021-06-20 09:31:41,822 Banana Son[0] about to be added elo.
+2021-06-20 09:31:41,822 Banana Son[0] name after elo added: Banana Son[0]
+2021-06-20 09:31:43,594 VuKek [129] about to be added elo.
+2021-06-20 09:31:43,595 VuKek [129] name after elo added: VuKek [142]
+2021-06-20 09:31:43,595 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:43,595 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:31:47,465 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:31:49,525 VuKek [142] about to be added elo.
+2021-06-20 09:31:49,526 VuKek [142] name after elo added: VuKek [154]
+2021-06-20 09:31:49,526 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:49,526 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:31:57,150 Banana Son[0] about to be added elo.
+2021-06-20 09:31:57,150 Banana Son[0] name after elo added: Banana Son[28]
+2021-06-20 09:31:57,150 VuKek [142] about to be added elo.
+2021-06-20 09:31:57,150 VuKek [142] name after elo added: VuKek [114]
+2021-06-20 09:31:57,671 VuKek [154] about to be added elo.
+2021-06-20 09:31:57,672 VuKek [154] name after elo added: VuKek [166]
+2021-06-20 09:31:57,672 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:31:57,672 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:31:57,719 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:31:57,894 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:32:03,667 VuKek [166] about to be added elo.
+2021-06-20 09:32:03,667 VuKek [166] name after elo added: VuKek [177]
+2021-06-20 09:32:03,667 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:03,668 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:32:06,064 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:06,064 this name is to b long 2[0] name after elo added: this name is to b long 2[22]
+2021-06-20 09:32:06,064 Banana Son[28] about to be added elo.
+2021-06-20 09:32:06,064 Banana Son[28] name after elo added: Banana Son[6]
+2021-06-20 09:32:06,934 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:06,934 this name is to b long 2[0] name after elo added: this name is to b long 2[22]
+2021-06-20 09:32:06,935 Banana Son[28] about to be added elo.
+2021-06-20 09:32:06,935 Banana Son[28] name after elo added: Banana Son[6]
+2021-06-20 09:32:07,177 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:32:07,523 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:32:13,819 Banana Son[6] about to be added elo.
+2021-06-20 09:32:13,820 Banana Son[6] name after elo added: Banana Son[35]
+2021-06-20 09:32:13,820 VuKek [177] about to be added elo.
+2021-06-20 09:32:13,820 VuKek [177] name after elo added: VuKek [148]
+2021-06-20 09:32:13,899 VuKek [177] about to be added elo.
+2021-06-20 09:32:13,899 VuKek [177] name after elo added: VuKek [188]
+2021-06-20 09:32:13,899 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:13,899 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:32:17,317 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:32:19,798 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:19,799 this name is to b long 2[0] name after elo added: this name is to b long 2[22]
+2021-06-20 09:32:19,799 Banana Son[35] about to be added elo.
+2021-06-20 09:32:19,799 Banana Son[35] name after elo added: Banana Son[13]
+2021-06-20 09:32:20,061 VuKek [148] about to be added elo.
+2021-06-20 09:32:20,061 VuKek [148] name after elo added: VuKek [160]
+2021-06-20 09:32:20,061 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:20,061 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:32:20,286 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:32:21,081 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:21,081 this name is to b long 2[0] name after elo added: this name is to b long 2[21]
+2021-06-20 09:32:21,081 Banana Son[13] about to be added elo.
+2021-06-20 09:32:21,081 Banana Son[13] name after elo added: Banana Son[0]
+2021-06-20 09:32:21,814 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:21,814 this name is to b long 2[0] name after elo added: this name is to b long 2[20]
+2021-06-20 09:32:21,814 Banana Son[0] about to be added elo.
+2021-06-20 09:32:21,814 Banana Son[0] name after elo added: Banana Son[0]
+2021-06-20 09:32:24,304 Banana Son[0] about to be added elo.
+2021-06-20 09:32:24,305 Banana Son[0] name after elo added: Banana Son[29]
+2021-06-20 09:32:24,305 VuKek [160] about to be added elo.
+2021-06-20 09:32:24,305 VuKek [160] name after elo added: VuKek [131]
+2021-06-20 09:32:26,591 VuKek [160] about to be added elo.
+2021-06-20 09:32:26,591 VuKek [160] name after elo added: VuKek [171]
+2021-06-20 09:32:26,591 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:26,591 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:32:27,665 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:32:33,271 VuKek [131] about to be added elo.
+2021-06-20 09:32:33,272 VuKek [131] name after elo added: VuKek [144]
+2021-06-20 09:32:33,272 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:33,272 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:32:33,454 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:32:36,563 Banana Son[29] about to be added elo.
+2021-06-20 09:32:36,564 Banana Son[29] name after elo added: Banana Son[47]
+2021-06-20 09:32:36,564 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:36,564 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:32:37,622 Unable to send message to ovrpay, points added to Banana Son
+2021-06-20 09:32:39,163 VuKek [144] about to be added elo.
+2021-06-20 09:32:39,164 VuKek [144] name after elo added: VuKek [156]
+2021-06-20 09:32:39,164 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:39,164 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:32:39,373 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:32:44,883 VuKek [156] about to be added elo.
+2021-06-20 09:32:44,883 VuKek [156] name after elo added: VuKek [168]
+2021-06-20 09:32:44,884 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:44,884 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:32:45,046 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:32:52,324 VuKek [168] about to be added elo.
+2021-06-20 09:32:52,324 VuKek [168] name after elo added: VuKek [179]
+2021-06-20 09:32:52,324 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:32:52,324 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:32:52,531 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:33:01,139 VuKek [179] about to be added elo.
+2021-06-20 09:33:01,141 VuKek [179] name after elo added: VuKek [190]
+2021-06-20 09:33:01,141 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:33:01,141 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:33:01,303 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:33:07,315 VuKek [190] about to be added elo.
+2021-06-20 09:33:07,316 VuKek [190] name after elo added: VuKek [200]
+2021-06-20 09:33:07,316 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:33:07,316 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:33:07,497 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:33:13,910 VuKek [200] about to be added elo.
+2021-06-20 09:33:13,910 VuKek [200] name after elo added: VuKek [210]
+2021-06-20 09:33:13,910 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:33:13,910 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:33:14,126 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:33:29,274 VuKek [210] about to be added elo.
+2021-06-20 09:33:29,275 VuKek [210] name after elo added: VuKek [219]
+2021-06-20 09:33:29,275 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:33:29,275 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 09:33:29,490 Unable to send message to ovrpay, points added to VuKeks
+2021-06-20 09:34:17,929 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:34:17,929 this name is to b long 2[0] name after elo added: this name is to b long 2[23]
+2021-06-20 09:34:17,929 Banana Son[47] about to be added elo.
+2021-06-20 09:34:17,929 Banana Son[47] name after elo added: Banana Son[24]
+2021-06-20 09:34:19,721 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:34:19,721 this name is to b long 2[0] name after elo added: this name is to b long 2[21]
+2021-06-20 09:34:19,721 Banana Son[24] about to be added elo.
+2021-06-20 09:34:19,721 Banana Son[24] name after elo added: Banana Son[3]
+2021-06-20 09:34:20,219 this name is to b long 2[0] about to be added elo.
+2021-06-20 09:34:20,219 this name is to b long 2[0] name after elo added: this name is to b long 2[20]
+2021-06-20 09:34:20,219 Banana Son[3] about to be added elo.
+2021-06-20 09:34:20,219 Banana Son[3] name after elo added: Banana Son[0]
+2021-06-20 10:01:31,069 testmarty[600] about to be added elo.
+2021-06-20 10:01:31,070 testmarty[600] name after elo added: testmarty[601]
+2021-06-20 10:01:31,070 this name is to b long 2[0] about to be added elo.
+2021-06-20 10:01:31,070 this name is to b long 2[0] name after elo added: this name is to b long 2[0]
+2021-06-20 10:01:31,369 Unable to send message to ovrpay, points added to testmarty
+2021-06-25 14:28:21,820 Helper initializing.
+2021-06-25 14:28:21,821 Main initializing.
+2021-06-25 14:28:21,845 PyNaCl is not installed, voice will NOT be supported
+2021-06-25 14:28:21,847 logging in using static token
+2021-06-25 14:28:22,119 Shard ID None has sent the IDENTIFY payload.
+2021-06-25 14:28:22,258 Shard ID None has connected to Gateway: ["gateway-prd-main-kl0w",{"micros":88215,"calls":["discord-sessions-green-prd-2-56",{"micros":86015,"calls":["start_session",{"micros":57339,"calls":["api-prd-main-6w97",{"micros":47405,"calls":["get_user",{"micros":6725},"add_authorized_ip",{"micros":1840},"get_guilds",{"micros":5754},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":24963,"calls":[]}]}]}] (Session ID: 3b072f3d31483c60b4233d4cc6d2d213).
+2021-06-25 16:43:44,471 Got a request to RESUME the websocket.
+2021-06-25 16:43:44,616 Shard ID None has sent the RESUME payload.
+2021-06-25 16:43:44,665 Shard ID None has successfully RESUMED session 3b072f3d31483c60b4233d4cc6d2d213 under trace ["gateway-prd-main-rkrd",{"micros":2824,"calls":["discord-sessions-green-prd-2-56",{"micros":14}]}].
+2021-06-25 17:03:39,547 Got a request to RESUME the websocket.
+2021-06-25 17:03:39,683 Shard ID None has sent the RESUME payload.
+2021-06-25 17:03:39,726 Shard ID None has successfully RESUMED session 3b072f3d31483c60b4233d4cc6d2d213 under trace ["gateway-prd-main-ktx2",{"micros":2856,"calls":["discord-sessions-green-prd-2-56",{"micros":13}]}].
+2021-06-25 19:30:41,071 Got a request to RESUME the websocket.
+2021-06-25 19:30:41,225 Shard ID None has sent the RESUME payload.
+2021-06-25 19:30:41,266 Shard ID None has successfully RESUMED session 3b072f3d31483c60b4233d4cc6d2d213 under trace ["gateway-prd-main-9qrz",{"micros":730,"calls":["discord-sessions-green-prd-2-56",{"micros":12}]}].
+2021-06-25 20:08:01,066 Got a request to RESUME the websocket.
+2021-06-25 20:08:01,231 Shard ID None has sent the RESUME payload.
+2021-06-25 20:08:01,276 Shard ID None has successfully RESUMED session 3b072f3d31483c60b4233d4cc6d2d213 under trace ["gateway-prd-main-c1b0",{"micros":4569,"calls":["discord-sessions-green-prd-2-56",{"micros":15}]}].
+2021-06-25 20:42:36,178 Helper initializing.
+2021-06-25 20:42:36,179 Main initializing.
+2021-06-25 20:42:36,193 PyNaCl is not installed, voice will NOT be supported
+2021-06-25 20:42:36,195 logging in using static token
+2021-06-25 20:42:36,413 Shard ID None has sent the IDENTIFY payload.
+2021-06-25 20:42:36,536 Shard ID None has connected to Gateway: ["gateway-prd-main-cszr",{"micros":83893,"calls":["discord-sessions-green-prd-2-31",{"micros":81988,"calls":["start_session",{"micros":50627,"calls":["api-prd-main-shzh",{"micros":47667,"calls":["get_user",{"micros":2574},"add_authorized_ip",{"micros":1929},"get_guilds",{"micros":9487},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":8382,"calls":[]}]}]}] (Session ID: f1f6de6503a02f8d209d833018e56c55).
+2021-06-25 20:44:42,137 Cleaning up tasks.
+2021-06-25 20:44:42,137 Cleaning up after 2 tasks.
+2021-06-25 20:44:42,138 All tasks finished cancelling.
+2021-06-25 20:44:42,138 Closing the event loop.
