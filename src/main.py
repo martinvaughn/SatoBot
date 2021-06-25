@@ -49,7 +49,7 @@ async def send_dispute_message(winner: discord.Member, loser: discord.Member):
 
 
 @client.command()
-async def send_channel_message(loser: discord.Member, message, winner=None):
+async def send_channel_message(message):
     channel = client.get_channel(CHANNEL_ID)
     await channel.send(message)
 
@@ -57,7 +57,7 @@ async def send_channel_message(loser: discord.Member, message, winner=None):
 @client.command()
 async def send_dm_to_loser(winner: discord.Member, loser: discord.Member):
     if winner == loser:
-        await send_channel_message(loser, f"{loser.mention} is trying to play himself... do I smell a cheater??")
+        await send_channel_message(f"{loser.mention} is trying to play himself... do I smell a cheater??")
         return
     channel = await loser.create_dm()
     try:
@@ -65,14 +65,14 @@ async def send_dm_to_loser(winner: discord.Member, loser: discord.Member):
             f"{winner.mention} claims you lost a match to them. Please confirm.\nNOTE: This message will delete after your response or {int(TIME_DELETE / 3600)} hrs.",
             delete_after=TIME_DELETE)
     except:
-        await send_channel_message(loser, f"Unable to send dm to {loser.mention}. Adding points automatically.")
+        await send_channel_message(f"Unable to send dm to {loser.mention}. Adding points automatically.")
         await update_elo(winner, loser)
         logger.warning(f"Unable to send message to {loser.name}, points added to {winner.name}")
 
     MESSAGE_CAN_DELETE[message.id] = loser
     await message.add_reaction('✅')
     await message.add_reaction('❌')
-    await send_channel_message(loser, f"Confirmation DM sent to {loser.mention}. Waiting for response.")
+    await send_channel_message(f"Confirmation DM sent to {loser.mention}. Waiting for response.")
 
 
 @client.event
@@ -110,8 +110,7 @@ async def beat(ctx):
         if loser.nick == None:
             loser.nick = loser.name
     else:
-        await send_channel_message(ctx.message.author.mention,
-                                   f"{ctx.message.author.mention} You didn't mention anyone. Try again.")
+        await send_channel_message(f"{ctx.message.author.mention} You didn't mention anyone. Try again.")
         return
     if ctx.message.author.nick == None:
         CAN_ADD_IDS.append(ctx.message.author.id)
@@ -131,7 +130,6 @@ async def beat(ctx):
 @client.command(name="update", aliases=["updatePoints"])
 @has_permissions(administrator=True)
 async def update_name(ctx, *args):
-    print("args: ", args)
     converter = MemberConverter()
     member = await converter.convert(ctx, args[0])
     nick = " ".join(args[1:])
@@ -214,7 +212,6 @@ async def on_message_delete(message):
         try:
             winner_id = helper.extract_id_from_message(message.content)
         except:
-            print("ignoring reaction from ", loser)
             return
         winner = get(client.get_all_members(), id=winner_id)
         ctx = await client.get_context(message)
@@ -241,8 +238,8 @@ async def on_command_error(ctx, error):
         msg = 'On cooldown still, please try again in {:.2f} min.'.format(error.retry_after / 60)
         await ctx.send(msg)
 
-    # else:
-    #     raise error
+    else:
+      raise error
 
 
 async def update_elo(winner, loser):
@@ -256,13 +253,13 @@ async def update_elo(winner, loser):
     try:
         await winner.edit(nick=new_winner_name)
     except discord.errors.HTTPException:
-        print("Error: Name too long.")
+        logger.warning(f"User name: {winner.name} Exception line 256 main")
 
     CAN_ADD_IDS.append(loser.id)
     try:
         await loser.edit(nick=new_loser_name)
     except discord.errors.HTTPException:
-        print("Error: Name too long.")
+        logger.warning(f"User name: {loser.name} Exception line 262 main")
 
 
 async def confirm_game(winner, loser):
@@ -271,11 +268,9 @@ async def confirm_game(winner, loser):
 
 async def change_role(member, elo_points):
     role_id = elo.get_role_id(elo_points)
-    print("role_id: ", role_id)
     guild = client.get_guild(GUILD_ID)
     role = get(guild.roles, id=role_id)
     if role in member.roles:
-        print("Member had role, returning")
         return
     else:
         await member.add_roles(role)
@@ -283,13 +278,9 @@ async def change_role(member, elo_points):
         not_roles.remove(role_id)
         member_role_ids = [a.id for a in member.roles]
 
-        print(member.nick + "'s roles: " + str(member_role_ids))
-        print("Opposite roles: ", not_roles)
-
         for p_role_id in not_roles:
             if p_role_id in member_role_ids:
                 p_role = get(guild.roles, id=p_role_id)
-                print("user had other role: ", p_role_id)
                 await member.remove_roles(p_role)
 
 

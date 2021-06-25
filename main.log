@@ -988,3 +988,42 @@
 2021-06-25 20:44:42,137 Cleaning up after 2 tasks.
 2021-06-25 20:44:42,138 All tasks finished cancelling.
 2021-06-25 20:44:42,138 Closing the event loop.
+2021-06-25 20:58:02,015 Helper initializing.
+2021-06-25 20:58:02,015 Main initializing.
+2021-06-25 20:58:02,029 PyNaCl is not installed, voice will NOT be supported
+2021-06-25 20:58:02,031 logging in using static token
+2021-06-25 20:58:02,296 Shard ID None has sent the IDENTIFY payload.
+2021-06-25 20:58:02,398 Shard ID None has connected to Gateway: ["gateway-prd-main-pwcb",{"micros":59977,"calls":["discord-sessions-green-prd-2-25",{"micros":58755,"calls":["start_session",{"micros":34074,"calls":["api-prd-main-82wp",{"micros":27374,"calls":["get_user",{"micros":3208},"add_authorized_ip",{"micros":1452},"get_guilds",{"micros":3845},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 271ad1479b83f99a2ac1fdf646c0eabc).
+2021-06-25 21:00:29,044 testmarty[236] about to be added elo.
+2021-06-25 21:00:29,045 testmarty[236] name after elo added: testmarty[268]
+2021-06-25 21:00:29,045 dumdum [470] about to be added elo.
+2021-06-25 21:00:29,045 dumdum [470] name after elo added: dumdum [438]
+2021-06-25 21:00:45,211 testmarty[268] about to be added elo.
+2021-06-25 21:00:45,211 testmarty[268] name after elo added: testmarty[297]
+2021-06-25 21:00:45,211 dumdum [438] about to be added elo.
+2021-06-25 21:00:45,211 dumdum [438] name after elo added: dumdum [409]
+2021-06-25 21:00:55,441 testmarty[297] about to be added elo.
+2021-06-25 21:00:55,441 testmarty[297] name after elo added: testmarty[303]
+2021-06-25 21:00:55,441 ovrpay[0] about to be added elo.
+2021-06-25 21:00:55,441 ovrpay[0] name after elo added: ovrpay[0]
+2021-06-25 21:00:55,617 Unable to send message to ovrpay, points added to testmarty
+2021-06-25 21:01:58,413 testmarty[303] about to be added elo.
+2021-06-25 21:01:58,413 testmarty[303] name after elo added: testmarty[329]
+2021-06-25 21:01:58,413 dumdum [409] about to be added elo.
+2021-06-25 21:01:58,413 dumdum [409] name after elo added: dumdum [383]
+2021-06-25 21:02:35,071 dumdum [383] about to be added elo.
+2021-06-25 21:02:35,071 dumdum [383] name after elo added: dumdum [400]
+2021-06-25 21:02:35,071 testmarty[329] about to be added elo.
+2021-06-25 21:02:35,071 testmarty[329] name after elo added: testmarty[312]
+2021-06-25 21:02:45,082 dumdum [400] about to be added elo.
+2021-06-25 21:02:45,082 dumdum [400] name after elo added: dumdum [415]
+2021-06-25 21:02:45,082 testmarty[312] about to be added elo.
+2021-06-25 21:02:45,082 testmarty[312] name after elo added: testmarty[297]
+2021-06-25 21:04:25,692 dumdum [415] about to be added elo.
+2021-06-25 21:04:25,692 dumdum [415] name after elo added: dumdum [428]
+2021-06-25 21:04:25,692 testmarty[297] about to be added elo.
+2021-06-25 21:04:25,692 testmarty[297] name after elo added: testmarty[284]
+2021-06-25 21:06:24,946 Cleaning up tasks.
+2021-06-25 21:06:24,947 Cleaning up after 1 tasks.
+2021-06-25 21:06:24,948 All tasks finished cancelling.
+2021-06-25 21:06:24,948 Closing the event loop.
