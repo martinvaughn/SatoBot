@@ -49,15 +49,15 @@ async def send_dispute_message(winner: discord.Member, loser: discord.Member):
 
 
 @client.command()
-async def send_channel_message(message):
-    channel = client.get_channel(CHANNEL_ID)
+async def send_channel_message(message, channel_id):
+    channel = client.get_channel(channel_id)
     await channel.send(message)
 
 
 @client.command()
 async def send_dm_to_loser(winner: discord.Member, loser: discord.Member):
     if winner == loser:
-        await send_channel_message(f"{loser.mention} is trying to play himself... do I smell a cheater??")
+        await send_channel_message(f"{loser.mention} is trying to play himself... do I smell a cheater??", CHANNEL_ID)
         return
     channel = await loser.create_dm()
     try:
@@ -65,14 +65,15 @@ async def send_dm_to_loser(winner: discord.Member, loser: discord.Member):
             f"{winner.mention} claims you lost a match to them. Please confirm.\nNOTE: This message will delete after your response or {int(TIME_DELETE / 3600)} hrs.",
             delete_after=TIME_DELETE)
     except:
-        await send_channel_message(f"Unable to send dm to {loser.mention}. Adding points automatically.")
+        await send_channel_message(f"Unable to send dm to {loser.mention}. Adding points automatically.", CHANNEL_ID)
         await update_elo(winner, loser)
         logger.warning(f"Unable to send message to {loser.name}, points added to {winner.name}")
+        return
 
     MESSAGE_CAN_DELETE[message.id] = loser
     await message.add_reaction('✅')
     await message.add_reaction('❌')
-    await send_channel_message(f"Confirmation DM sent to {loser.mention}. Waiting for response.")
+    await send_channel_message(f"Confirmation DM sent to {loser.mention}. Waiting for response.", CHANNEL_ID)
 
 
 @client.event
@@ -110,7 +111,7 @@ async def beat(ctx):
         if loser.nick == None:
             loser.nick = loser.name
     else:
-        await send_channel_message(f"{ctx.message.author.mention} You didn't mention anyone. Try again.")
+        await send_channel_message(f"{ctx.message.author.mention} You didn't mention anyone. Try again.", CHANNEL_ID)
         return
     if ctx.message.author.nick == None:
         CAN_ADD_IDS.append(ctx.message.author.id)
@@ -260,6 +261,9 @@ async def update_elo(winner, loser):
         await loser.edit(nick=new_loser_name)
     except discord.errors.HTTPException:
         logger.warning(f"User name: {loser.name} Exception line 262 main")
+    # send winning message in results channel.
+    
+    
 
 
 async def confirm_game(winner, loser):
