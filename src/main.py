@@ -15,17 +15,20 @@ logger.setLevel(20)
 
 logger.warning("Main initializing.")
 
-ADMIN_ROLE_ID = 848423895408705546
-COUNT = 0
-TEN_MIN = 600  # 10 minutes in seconds
-CHANNEL_ID = 850867690318200833  # ID of channel to send most messages.
-RESULTS_ID = 858081752421236836 # ID of channel to send results.
-GUILD_ID = 848422158857142323 # ID of the server in use.
+ADMIN_ROLE_ID = 858476845921730562 # 848423895408705546
+CHANNEL_ID = 858467481449922571 # ID of channel to send most messages.
+RESULTS_ID = 858467749662556220 # ID of channel to send results.
+GUILD_ID = 702601188247601174 # ID of the server in use.
+
+
 # NAME_CHANGE_QUEUE = []  # IDs of names that can be changed --> For when people can change name
 MESSAGE_CAN_DELETE = {}  # Messages that can be deleted by the bot.
 MESSAGE_CAN_DELETE_DISPUTES = []  # Same as ^ but also for disputed messages.
 # CAN_ADD_IDS = []  # List of IDs of who can have Elo added. Only people who've played can have elo added.
-TIME_DELETE = 90  # 86400 seconds == 24 hours
+
+TIME_DELETE = 43200  # 86400 seconds == 24 hours
+COUNT = 0
+TEN_MIN = 600  # 10 minutes in seconds
 
 Intents = discord.Intents()
 intents = Intents.all()
@@ -93,7 +96,6 @@ async def on_reaction_add(reaction, loser):
             await reaction.message.delete()
 
 
-
 @client.command(name="beat")
 # @commands.cooldown(1, TEN_MIN * 2, commands.BucketType.user)
 async def beat(ctx):
@@ -121,8 +123,9 @@ async def beat(ctx):
         await ctx.message.author.edit(nick=ctx.message.author.name + "[0]")
     await confirm_game(winner=ctx.message.author, loser=loser)
 
+
 @client.command(name="update", aliases=["updatePoints"])
-@has_permissions(administrator=True)
+@has_permissions(administrator=True, manage_nicknames=True)
 async def update_name(ctx, *args):
     converter = MemberConverter()
     member = await converter.convert(ctx, args[0])
