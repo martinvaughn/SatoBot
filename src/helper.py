@@ -24,8 +24,9 @@ def extract_id_from_message(id):
 
 
 def new_name(member, elo):
-  logger.warning(f"{member.nick} about to be added elo.")
-  no_brackets = purge_name_brackets(member.nick)
+  nick = member.nick if member.nick else member.name
+  logger.warning(f"{nick} about to be added elo.")
+  no_brackets = purge_name_brackets(nick)
   temp_name = check_name_length(no_brackets)
   new_name = temp_name + "[" + str(elo) + "]"
   logger.warning(f"{member.nick} name after elo added: {new_name}")

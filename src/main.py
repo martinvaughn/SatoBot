@@ -15,15 +15,16 @@ logger.setLevel(20)
 
 logger.warning("Main initializing.")
 
+ADMIN_ROLE_ID = 848423895408705546
 COUNT = 0
 TEN_MIN = 600  # 10 minutes in seconds
 CHANNEL_ID = 850867690318200833  # ID of channel to send most messages.
 RESULTS_ID = 858081752421236836 # ID of channel to send results.
-GUILD_ID = 848422158857142323
-NAME_CHANGE_QUEUE = []  # IDs of names that can be changed
+GUILD_ID = 848422158857142323 # ID of the server in use.
+# NAME_CHANGE_QUEUE = []  # IDs of names that can be changed --> For when people can change name
 MESSAGE_CAN_DELETE = {}  # Messages that can be deleted by the bot.
 MESSAGE_CAN_DELETE_DISPUTES = []  # Same as ^ but also for disputed messages.
-CAN_ADD_IDS = []  # List of IDs of who can have Elo added. Only people who've played can have elo added.
+# CAN_ADD_IDS = []  # List of IDs of who can have Elo added. Only people who've played can have elo added.
 TIME_DELETE = 90  # 86400 seconds == 24 hours
 
 Intents = discord.Intents()
@@ -45,7 +46,9 @@ async def send_dm(member: discord.Member, content):
 @client.command()
 async def send_dispute_message(winner: discord.Member, loser: discord.Member):
     channel = client.get_channel(RESULTS_ID)
-    await channel.send(f"{loser.mention} disputes that {winner.mention} beat them. Calling Admin to chat.")
+    guild = client.get_guild(GUILD_ID)
+    role = get(guild.roles, id=ADMIN_ROLE_ID)
+    await channel.send(f"{loser.mention} disputes that {winner.mention} beat them. Calling {role.mention} to chat.")
 
 
 @client.command()
@@ -90,43 +93,33 @@ async def on_reaction_add(reaction, loser):
             await reaction.message.delete()
 
 
-# @client.event
-# async def on_member_join(member):
-#   if member.nick is None:
-#     member.nick = member.name + " [0]"
-#   else:
-#     member.nick = purge_name_brackets(member.nick)
-#     member.nick = member.nick + " [0]"
-
 
 @client.command(name="beat")
 # @commands.cooldown(1, TEN_MIN * 2, commands.BucketType.user)
 async def beat(ctx):
+    if ctx.channel.id != CHANNEL_ID:
+        await send_channel_message(f"You're playing in the wrong channel. Plz stop :-/", ctx.channel.id)
+        return
+
     if ctx.message.author == client.user:
         return
 
     # if ctx.message.content.startswith('!beat'):
     if ctx.message.mentions:
         loser = ctx.message.mentions[0]
+        if loser == client.user:
+          await send_channel_message(f"You wish to challenge{client.user.mention}?? You Lose!\njk but really you can't play me, I'm a bot.", CHANNEL_ID)
+          return
+
         if loser.nick == None:
             loser.nick = loser.name
     else:
         await send_channel_message(f"{ctx.message.author.mention} You didn't mention anyone. Try again.", CHANNEL_ID)
         return
     if ctx.message.author.nick == None:
-        CAN_ADD_IDS.append(ctx.message.author.id)
+        # CAN_ADD_IDS.append(ctx.message.author.id) -> for user can change names
         await ctx.message.author.edit(nick=ctx.message.author.name + "[0]")
     await confirm_game(winner=ctx.message.author, loser=loser)
-
-
-# @beat.error
-# async def beat_error(ctx, error):
-#     if isinstance(error, commands.CommandOnCooldown):
-#         msg = 'On cooldown still, please try again in {:.2f} min.'.format(error.retry_after / 60)
-#         await ctx.send(msg)
-#     else:
-#         raise error
-
 
 @client.command(name="update", aliases=["updatePoints"])
 @has_permissions(administrator=True)
@@ -135,74 +128,8 @@ async def update_name(ctx, *args):
     member = await converter.convert(ctx, args[0])
     nick = " ".join(args[1:])
     nick = helper.check_name_length(nick)
-    CAN_ADD_IDS.append(member.id)
+    # CAN_ADD_IDS.append(member.id)
     await member.edit(nick=nick)
-
-
-# return true bc this should only be accessed by an admin.
-
-
-@client.event
-async def on_member_update(before, after):
-    if before.nick == after.nick:
-        return
-
-    # ctx = await client.get_context()
-    if before.id in CAN_ADD_IDS:
-        CAN_ADD_IDS.remove(before.id)
-        return
-
-    old_brackets = ""
-    try:
-        old_brackets = helper.find_name_brackets(before.nick)
-    except:
-        logger.warning(f"User name: {before.name} has no brackets.")
-    if old_brackets is None:
-        old_brackets = "[0]"
-
-    cleaned = ""
-    try:
-        cleaned = helper.purge_name_brackets(after.nick)
-    except:
-        cleaned = after.nick
-        if cleaned is None:
-            NAME_CHANGE_QUEUE.append(before.id)
-            await after.edit(nick=after.name + old_brackets)
-            await send_dm(before,
-                          "It looks you like tried to remove your nickname, so we added your points back.\nIf you'd like to be removed from the elo scoring, please contact an Admin.")
-            logger.warning(f"User name: {before.name} attempted to remove nickname")
-            return
-
-    cleaned = helper.check_name_length(cleaned)
-
-    new_nick = cleaned + old_brackets
-    if before.id not in NAME_CHANGE_QUEUE:
-        NAME_CHANGE_QUEUE.append(before.id)
-        await after.edit(nick=new_nick)
-        # await send_dm(before, "You changed your nickname. We're updating it to match our guidelines.")
-    else:
-        NAME_CHANGE_QUEUE.remove(before.id)
-        return
-
-
-# @client.event
-# async def on_message(message):
-#   if message.author == client.user:
-#     return
-
-#   if message.content.startswith('!beat'):
-#     if message.mentions:
-#       loser = message.mentions[0]
-#       if loser.nick == None:
-#         loser.nick = loser.name
-#     else:
-#       await send_channel_message(message.author.mention, f"{message.author.mention} You didn't mention anyone. Try again.")
-#       return
-#     if message.author.nick == None:
-#       CAN_ADD_IDS.append(message.author.id)
-#       await message.author.edit(nick=message.author.name + "[0]")
-#     await confirm_game(winner=message.author, loser=loser)
-#   await client.process_commands(message)
 
 
 # Use on_raw_message_delete if you want it to check messages from before the last loading.
@@ -244,26 +171,25 @@ async def on_command_error(ctx, error):
 
 
 async def update_elo(winner, loser):
-    winner_elo, loser_elo = elo.calc_elo(winner, loser)
+    winner_elo, loser_elo, points = elo.calc_elo(winner, loser)
     await change_role(winner, winner_elo)
     await change_role(loser, loser_elo)
 
     new_winner_name = helper.new_name(winner, winner_elo)
     new_loser_name = helper.new_name(loser, loser_elo)
-    CAN_ADD_IDS.append(winner.id)
+    # CAN_ADD_IDS.append(winner.id)
     try:
         await winner.edit(nick=new_winner_name)
     except discord.errors.HTTPException:
         logger.warning(f"User name: {winner.name} Exception line 256 main")
 
-    CAN_ADD_IDS.append(loser.id)
+    # CAN_ADD_IDS.append(loser.id)
     try:
         await loser.edit(nick=new_loser_name)
     except discord.errors.HTTPException:
         logger.warning(f"User name: {loser.name} Exception line 262 main")
     # send winning message in results channel.
-    
-    
+    await send_channel_message(f"Winner: {winner.mention} Points Added: {int(points)}\nLoser: {loser.mention} Points Taken: {int(points)}\n", RESULTS_ID)
 
 
 async def confirm_game(winner, loser):
@@ -316,3 +242,86 @@ client.run(os.getenv('TOKEN'))
 # if not re.search(r'\[.+\]', current_name):
 # current_name = purge_name_brackets(current_name)
 # new_name = current_name + " [5]"
+
+
+
+# ADD WHEN THE USERS ARE ABLE TO CHANGE NICKNAMES
+# @client.event
+# async def on_member_update(before, after):
+#     if before.nick == after.nick:
+#         return
+
+#     # ctx = await client.get_context()
+#     if before.id in CAN_ADD_IDS:
+#         CAN_ADD_IDS.remove(before.id)
+#         return
+
+#     old_brackets = ""
+#     try:
+#         old_brackets = helper.find_name_brackets(before.nick)
+#     except:
+#         logger.warning(f"User name: {before.name} has no brackets.")
+#     if old_brackets is None:
+#         old_brackets = "[0]"
+
+#     cleaned = ""
+#     try:
+#         cleaned = helper.purge_name_brackets(after.nick)
+#     except:
+#         cleaned = after.nick
+#         if cleaned is None:
+#             NAME_CHANGE_QUEUE.append(before.id)
+#             await after.edit(nick=after.name + old_brackets)
+#             await send_dm(before,
+#                           "It looks you like tried to remove your nickname, so we added your points back.\nIf you'd like to be removed from the elo scoring, please contact an Admin.")
+#             logger.warning(f"User name: {before.name} attempted to remove nickname")
+#             return
+
+#     cleaned = helper.check_name_length(cleaned)
+
+#     new_nick = cleaned + old_brackets
+#     if before.id not in NAME_CHANGE_QUEUE:
+#         NAME_CHANGE_QUEUE.append(before.id)
+#         await after.edit(nick=new_nick)
+#         # await send_dm(before, "You changed your nickname. We're updating it to match our guidelines.")
+#     else:
+#         NAME_CHANGE_QUEUE.remove(before.id)
+#         return
+
+
+
+# ADD if going back to on_message
+# @client.event
+# async def on_message(message):
+#   if message.author == client.user:
+#     return
+
+#   if message.content.startswith('!beat'):
+#     if message.mentions:
+#       loser = message.mentions[0]
+#       if loser.nick == None:
+#         loser.nick = loser.name
+#     else:
+#       await send_channel_message(message.author.mention, f"{message.author.mention} You didn't mention anyone. Try again.")
+#       return
+#     if message.author.nick == None:
+#       CAN_ADD_IDS.append(message.author.id)
+#       await message.author.edit(nick=message.author.name + "[0]")
+#     await confirm_game(winner=message.author, loser=loser)
+#   await client.process_commands(message)
+
+# @beat.error
+# async def beat_error(ctx, error):
+#     if isinstance(error, commands.CommandOnCooldown):
+#         msg = 'On cooldown still, please try again in {:.2f} min.'.format(error.retry_after / 60)
+#         await ctx.send(msg)
+#     else:
+#         raise error
+
+
+
+
+# When sato bot is tagged:
+# if loser == client.user:
+#           print("yee")
+#           await send_channel_message(f"You wish to challenge{client.user.mention}?? You Lose!", CHANNEL_ID)

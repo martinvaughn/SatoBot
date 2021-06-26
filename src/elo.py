@@ -33,10 +33,11 @@ def get_role_id(score):
 def calc_elo(winner, loser):
     w_current_elo = get_current_elo(winner)
     l_current_elo = get_current_elo(loser)
-    w_new_elo, l_new_elo = calculate_expected_score(w_current_elo, l_current_elo)
+    w_new_elo, l_new_elo, points = calculate_expected_score(w_current_elo, l_current_elo)
+    # points is the points in play.
     w_new_elo = check_negative(w_new_elo)
     l_new_elo = check_negative(l_new_elo)
-    return w_new_elo, l_new_elo
+    return w_new_elo, l_new_elo, points
 
 
 def get_current_elo(member):
@@ -61,12 +62,15 @@ def calculate_expected_score(winner, loser):
         lower_score = 1
     if higher_score == 0:
         higher_score = 1
+    
 
     if winner > loser:
         new_winner, new_loser = winner + lower_score, loser - lower_score
+        points_given = lower_score
     else:
         new_winner, new_loser = winner + higher_score, loser - higher_score
-    return new_winner, new_loser
+        points_given = higher_score
+    return new_winner, new_loser, points_given
 
 
 def check_negative(elo):
