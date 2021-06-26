@@ -1,33 +1,32 @@
 import helper
 
 WEIGHT = 40
-# ROLES = [
-#   855630140164014090, # BRONZE
-#   851669066622959648, # ELITE
-#   851669140463812608, # MASTERS
-#   851669152108380201, # GRANDMASTERS
-#   851669162887348234, # LEGEND
-# ]
-
 ROLES = [
-    855641875972882443,  # BRONZE
-    855641806758477844,  # SILVER
-    855641716164919356,  # CHAMPION
-    856066147438952478,  # LEGEND
+  858419991477223484, # Academy Student 
+  858420330614751272, # LAG GUARDIAN
+  858420594683805706, # LAG ELITE 
+  858420672112230410, # LAG CONQUEROR
+  858420748690259979, # LAG SHINOBI
+  858420824406753340, # LAG KAGE
+  858421193824272425  # LAG RONIN
 ]
 
 
 def get_role_id(score):
-    if score < 100:
+    if score < 499:
         return ROLES[0]
-    elif score < 200:
+    elif score < 999:
         return ROLES[1]
-    elif score < 300:
+    elif score < 1499:
         return ROLES[2]
-    elif score < 400:
+    elif score < 1999:
         return ROLES[3]
+    elif score < 2499:
+        return ROLES[4]
+    elif score < 2999:
+        return ROLES[5]
     else:
-        return ROLES[3]
+        return ROLES[6]
 
 
 def calc_elo(winner, loser):
@@ -62,7 +61,6 @@ def calculate_expected_score(winner, loser):
         lower_score = 1
     if higher_score == 0:
         higher_score = 1
-    
 
     if winner > loser:
         new_winner, new_loser = winner + lower_score, loser - lower_score
