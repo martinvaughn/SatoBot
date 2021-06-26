@@ -73,7 +73,7 @@ async def send_dm_to_loser(winner: discord.Member, loser: discord.Member):
     except:
         await send_channel_message(f"Unable to send dm to {loser.mention}. Adding points automatically.", CHANNEL_ID)
         await update_elo(winner, loser)
-        logger.warning(f"Unable to send message to {loser.name}, points added to {winner.name}")
+        logger.warning(f"Unable to send message to {loser.name}, points added to {winner.name}\n")
         return
 
     MESSAGE_CAN_DELETE[message.id] = loser
@@ -192,7 +192,7 @@ async def update_elo(winner, loser):
     except discord.errors.HTTPException:
         logger.warning(f"User name: {loser.name} Exception line 262 main")
     # send winning message in results channel.
-    await send_channel_message(f"Winner: {winner.mention} Points Added: {int(points)}\nLoser: {loser.mention} Points Taken: {int(points)}\n", RESULTS_ID)
+    await send_channel_message(f"------------\n\nWinner: {winner.mention} Points Added: {int(points)}\nLoser: {loser.mention} Points Taken: {int(points)}\n\n------------", RESULTS_ID)
 
 
 async def confirm_game(winner, loser):

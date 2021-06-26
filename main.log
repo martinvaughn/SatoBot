@@ -78,3 +78,117 @@
 2021-06-26 06:15:02,872 testmarty-123456789-12345678[97] about to be added elo.
 2021-06-26 06:15:02,872 Name testmarty-123456789-12345678 was too long, being shortened.
 2021-06-26 06:15:02,873 testmarty-123456789-12345678[97] name after elo added: testmarty-123456789-1234[72]
+2021-06-26 23:28:12,795 Helper initializing.
+2021-06-26 23:28:12,797 Main initializing.
+2021-06-26 23:28:12,813 PyNaCl is not installed, voice will NOT be supported
+2021-06-26 23:28:12,814 logging in using static token
+2021-06-26 23:28:13,024 Shard ID None has sent the IDENTIFY payload.
+2021-06-26 23:28:13,153 Shard ID None has connected to Gateway: ["gateway-prd-main-rkrd",{"micros":88551,"calls":["discord-sessions-green-prd-2-138",{"micros":86351,"calls":["start_session",{"micros":27748,"calls":["api-prd-main-7jv1",{"micros":24713,"calls":["get_user",{"micros":2532},"add_authorized_ip",{"micros":1474},"get_guilds",{"micros":3325},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":30030,"calls":[]}]}]}] (Session ID: 521bd215f01e9438feb1fabd256861ba).
+2021-06-26 23:30:27,183 MobslayerOfficalOvrpay'sGrandpa about to be added elo.
+2021-06-26 23:30:27,184 Name MobslayerOfficalOvrpay'sGrandpa was too long, being shortened.
+2021-06-26 23:30:27,184 MobslayerOfficalOvrpay'sGrandpa name after elo added: MobslayerOfficalOvrpay's[20]
+2021-06-26 23:30:27,184 Ovrpay about to be added elo.
+2021-06-26 23:30:27,184 Ovrpay name after elo added: Ovrpay[0]
+2021-06-26 23:30:27,533 User name: ovrpay Exception line 262 main
+2021-06-26 23:30:28,530 Unable to send message to ovrpay, points added to mobslayer
+2021-06-26 23:31:22,603 Ovrpay about to be added elo.
+2021-06-26 23:31:22,604 Ovrpay name after elo added: Ovrpay[21]
+2021-06-26 23:31:22,604 MobslayerOfficalOvrpay's[20] about to be added elo.
+2021-06-26 23:31:22,604 MobslayerOfficalOvrpay's[20] name after elo added: MobslayerOfficalOvrpay's[0]
+2021-06-26 23:31:22,740 User name: ovrpay Exception line 256 main
+2021-06-26 23:32:26,350 Cleaning up tasks.
+2021-06-26 23:32:26,351 Cleaning up after 3 tasks.
+2021-06-26 23:32:26,352 All tasks finished cancelling.
+2021-06-26 23:32:26,353 Closing the event loop.
+2021-06-26 23:33:35,895 Helper initializing.
+2021-06-26 23:33:35,896 Main initializing.
+2021-06-26 23:33:35,920 PyNaCl is not installed, voice will NOT be supported
+2021-06-26 23:33:35,922 logging in using static token
+2021-06-26 23:33:36,165 Shard ID None has sent the IDENTIFY payload.
+2021-06-26 23:33:36,280 Shard ID None has connected to Gateway: ["gateway-prd-main-dbh6",{"micros":72360,"calls":["discord-sessions-green-prd-2-84",{"micros":67305,"calls":["start_session",{"micros":58869,"calls":["api-prd-main-t71n",{"micros":55460,"calls":["get_user",{"micros":6239},"add_authorized_ip",{"micros":2717},"get_guilds",{"micros":10418},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 5f5a8955242034e8cbe59da9debfbe87).
+2021-06-26 23:35:05,441 MobslayerOfficalOvrpay's[0] about to be added elo.
+2021-06-26 23:35:05,441 MobslayerOfficalOvrpay's[0] name after elo added: MobslayerOfficalOvrpay's[20]
+2021-06-26 23:35:05,441 Ovrpay about to be added elo.
+2021-06-26 23:35:05,441 Ovrpay name after elo added: Ovrpay[0]
+2021-06-26 23:35:05,672 User name: ovrpay Exception line 262 main
+2021-06-26 23:35:05,851 Unable to send message to ovrpay, points added to mobslayer
+
+2021-06-26 23:35:44,856 Cleaning up tasks.
+2021-06-26 23:35:44,857 Cleaning up after 2 tasks.
+2021-06-26 23:35:44,858 All tasks finished cancelling.
+2021-06-26 23:35:44,863 Closing the event loop.
+2021-06-26 23:35:46,745 Helper initializing.
+2021-06-26 23:35:46,746 Main initializing.
+2021-06-26 23:35:46,765 PyNaCl is not installed, voice will NOT be supported
+2021-06-26 23:35:46,767 logging in using static token
+2021-06-26 23:35:47,006 Shard ID None has sent the IDENTIFY payload.
+2021-06-26 23:35:47,146 Shard ID None has connected to Gateway: ["gateway-prd-main-1l9l",{"micros":89937,"calls":["discord-sessions-green-prd-2-124",{"micros":89177,"calls":["start_session",{"micros":61619,"calls":["api-prd-main-2d3l",{"micros":58718,"calls":["get_user",{"micros":7502},"add_authorized_ip",{"micros":2731},"get_guilds",{"micros":7070},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":4268,"calls":[]}]}]}] (Session ID: 1c0ea3bc69b5822c5d0eceaad85856c4).
+2021-06-26 23:36:28,755 MobslayerOfficalOvrpay's[20] about to be added elo.
+2021-06-26 23:36:28,755 MobslayerOfficalOvrpay's[20] name after elo added: MobslayerOfficalOvrpay's[39]
+2021-06-26 23:36:28,755 Ovrpay about to be added elo.
+2021-06-26 23:36:28,755 Ovrpay name after elo added: Ovrpay[0]
+2021-06-26 23:36:29,004 User name: ovrpay Exception line 262 main
+2021-06-26 23:36:29,136 Unable to send message to ovrpay, points added to mobslayer
+
+2021-06-26 23:37:05,966 MobslayerOfficalOvrpay's[39] about to be added elo.
+2021-06-26 23:37:05,966 MobslayerOfficalOvrpay's[39] name after elo added: MobslayerOfficalOvrpay's[57]
+2021-06-26 23:37:05,966 F̵͑͜l̴̀͘a̶̾̾m̸̓̀ȉ̷̎n̶̒͒g̵̐̔o about to be added elo.
+2021-06-26 23:37:05,966 Name F̵͑͜l̴̀͘a̶̾̾m̸̓̀ȉ̷̎n̶̒͒g̵̐̔o was too long, being shortened.
+2021-06-26 23:37:05,966 F̵͑͜l̴̀͘a̶̾̾m̸̓̀ȉ̷̎n̶̒͒g̵̐̔o name after elo added: F̵͑͜l̴̀͘a̶̾̾m̸̓̀ȉ̷̎n̶̒͒[0]
+2021-06-26 23:37:06,394 Unable to send message to Banana Son, points added to mobslayer
+
+2021-06-26 23:37:11,482 Cleaning up tasks.
+2021-06-26 23:37:11,483 Cleaning up after 1 tasks.
+2021-06-26 23:37:11,485 All tasks finished cancelling.
+2021-06-26 23:37:11,486 Closing the event loop.
+2021-06-26 23:38:45,417 Helper initializing.
+2021-06-26 23:38:45,417 Main initializing.
+2021-06-26 23:38:45,442 PyNaCl is not installed, voice will NOT be supported
+2021-06-26 23:38:45,444 logging in using static token
+2021-06-26 23:38:45,757 Shard ID None has sent the IDENTIFY payload.
+2021-06-26 23:38:45,843 Shard ID None has connected to Gateway: ["gateway-prd-main-mp6n",{"micros":44197,"calls":["discord-sessions-green-prd-2-86",{"micros":40663,"calls":["start_session",{"micros":34912,"calls":["api-prd-main-m24l",{"micros":31561,"calls":["get_user",{"micros":2784},"add_authorized_ip",{"micros":1491},"get_guilds",{"micros":3604},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 95c90f798e2f579140953d72b1c7e190).
+2021-06-26 23:39:04,031 MobslayerOfficalOvrpay's[57] about to be added elo.
+2021-06-26 23:39:04,031 MobslayerOfficalOvrpay's[57] name after elo added: MobslayerOfficalOvrpay's[74]
+2021-06-26 23:39:04,032 Ovrpay about to be added elo.
+2021-06-26 23:39:04,032 Ovrpay name after elo added: Ovrpay[0]
+2021-06-26 23:39:04,325 User name: ovrpay Exception line 262 main
+2021-06-26 23:39:04,458 Unable to send message to ovrpay, points added to mobslayer
+
+2021-06-26 23:40:00,700 Cleaning up tasks.
+2021-06-26 23:40:00,700 Cleaning up after 1 tasks.
+2021-06-26 23:40:00,702 All tasks finished cancelling.
+2021-06-26 23:40:00,702 Closing the event loop.
+2021-06-26 23:40:10,193 Helper initializing.
+2021-06-26 23:40:10,194 Main initializing.
+2021-06-26 23:40:10,212 PyNaCl is not installed, voice will NOT be supported
+2021-06-26 23:40:10,214 logging in using static token
+2021-06-26 23:40:10,445 Shard ID None has sent the IDENTIFY payload.
+2021-06-26 23:40:10,559 Shard ID None has connected to Gateway: ["gateway-prd-main-7p4k",{"micros":66515,"calls":["discord-sessions-green-prd-2-100",{"micros":64435,"calls":["start_session",{"micros":25783,"calls":["api-prd-main-mdn2",{"micros":22685,"calls":["get_user",{"micros":2592},"add_authorized_ip",{"micros":1149},"get_guilds",{"micros":2730},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":11613,"calls":[]}]}]}] (Session ID: 3963ab60b8809f95efba7442b7e0226c).
+2021-06-26 23:40:42,042 MobslayerOfficalOvrpay's[74] about to be added elo.
+2021-06-26 23:40:42,042 MobslayerOfficalOvrpay's[74] name after elo added: MobslayerOfficalOvrpay's[90]
+2021-06-26 23:40:42,043 Ovrpay about to be added elo.
+2021-06-26 23:40:42,043 Ovrpay name after elo added: Ovrpay[0]
+2021-06-26 23:40:42,323 User name: ovrpay Exception line 262 main
+2021-06-26 23:40:42,558 Unable to send message to ovrpay, points added to mobslayer
+
+2021-06-26 23:41:49,573 MobslayerOvrpay'sGrandpa[90] about to be added elo.
+2021-06-26 23:41:49,573 MobslayerOvrpay'sGrandpa[90] name after elo added: MobslayerOvrpay'sGrandpa[105]
+2021-06-26 23:41:49,573 Ovrpay about to be added elo.
+2021-06-26 23:41:49,573 Ovrpay name after elo added: Ovrpay[0]
+2021-06-26 23:41:49,786 User name: ovrpay Exception line 262 main
+2021-06-26 23:41:49,898 Unable to send message to ovrpay, points added to mobslayer
+
+2021-06-26 23:42:30,388 Cleaning up tasks.
+2021-06-26 23:42:30,388 Cleaning up after 1 tasks.
+2021-06-26 23:42:30,389 All tasks finished cancelling.
+2021-06-26 23:42:30,390 Closing the event loop.
+2021-06-26 23:42:38,370 Helper initializing.
+2021-06-26 23:42:38,371 Main initializing.
+2021-06-26 23:42:38,392 PyNaCl is not installed, voice will NOT be supported
+2021-06-26 23:42:38,394 logging in using static token
+2021-06-26 23:42:38,600 Shard ID None has sent the IDENTIFY payload.
+2021-06-26 23:42:38,748 Shard ID None has connected to Gateway: ["gateway-prd-main-thg9",{"micros":103448,"calls":["discord-sessions-green-prd-2-9",{"micros":99674,"calls":["start_session",{"micros":84602,"calls":["api-prd-main-6t1s",{"micros":81801,"calls":["get_user",{"micros":12797},"add_authorized_ip",{"micros":3994},"get_guilds",{"micros":21632},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":11626,"calls":[]}]}]}] (Session ID: 0020692c0fc7317097a7a8df5e002f62).
+2021-06-26 23:42:49,917 Cleaning up tasks.
+2021-06-26 23:42:49,917 Cleaning up after 1 tasks.
+2021-06-26 23:42:49,918 All tasks finished cancelling.
+2021-06-26 23:42:49,919 Closing the event loop.
