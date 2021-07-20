@@ -5,6 +5,7 @@ from discord.ext.commands import MemberConverter, has_permissions, CommandNotFou
 from discord.utils import get
 import helper
 import elo
+from datetime import datetime, timedelta
 import logging
 
 
@@ -130,6 +131,58 @@ async def update_name(ctx, *args):
     nick = helper.check_name_length(nick)
     # CAN_ADD_IDS.append(member.id)
     await member.edit(nick=nick)
+
+
+# TOURNE MODE:
+@client.command(name="leaderboard")
+@has_permissions(administrator=True)
+async def leaderboard(ctx, *args):
+    elo_list = []
+    guild = client.get_guild(GUILD_ID)
+    for member in guild.members:
+      if member.nick is not None:
+        current_elo = elo.get_current_elo(member)
+        elo_list.append((member.nick, current_elo))
+    sorted_elo_list = sorted(elo_list, key=lambda x: x[1], reverse=True)
+    await send_channel_message(f'''
+    ╭──── SATO LEADERBOARD ────╮
+     1. {sorted_elo_list[0][0]}
+     2. {sorted_elo_list[1][0]}
+     3. {sorted_elo_list[2][0]}
+     4. {sorted_elo_list[3][0]}
+     5. {sorted_elo_list[4][0]}
+     6. {sorted_elo_list[5][0]}
+     7. {sorted_elo_list[6][0]}
+     8. {sorted_elo_list[7][0]}
+     9. {sorted_elo_list[8][0]}
+     10. {sorted_elo_list[9][0]}
+╰──────────────────╯''', CHANNEL_ID)
+    # elo_list.sort( BOOM )
+
+
+# TOURNE MODE:
+@client.command(name="checkCheaters")
+@has_permissions(administrator=True)
+async def checkCheaters(ctx, *args):
+    beaters = {}
+    now = datetime.today()
+    yesterday = now - timedelta(days=1)
+    print(now)
+    print(yesterday)
+    channel = client.get_channel(CHANNEL_ID)
+    messages = await channel.history(after=yesterday, before=now).flatten()
+    for message in messages:
+      if message.content.startswith("!beat") and message.mentions:
+        if message.author.nick in beaters:
+          old_list = beaters[message.author.nick]
+          old_list.append(message.mentions[0].name)
+          beaters[message.author.nick] = old_list
+        else:
+          beaters[message.author.nick] = [message.mentions[0].name]
+        print(beaters)
+
+    # guild = client.get_guild(GUILD_ID)
+    channel = ""
 
 
 # Use on_raw_message_delete if you want it to check messages from before the last loading.
