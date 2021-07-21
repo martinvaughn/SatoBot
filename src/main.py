@@ -62,7 +62,7 @@ async def send_channel_message(message, channel_id):
 
 
 @client.command()
-async def send_dm_to_loser(winner: discord.Member, loser: discord.Member):
+async def send_dm_to_loser(winner: discord.Member, loser: discord.Member, this_message):
     if winner == loser:
         await send_channel_message(f"{loser.mention} is trying to play himself... do I smell a cheater??", CHANNEL_ID)
         return
@@ -72,7 +72,7 @@ async def send_dm_to_loser(winner: discord.Member, loser: discord.Member):
             f"{winner.mention} claims you lost a match to them. Please confirm.\nNOTE: This message will delete after your response or {int(TIME_DELETE / 3600)} hrs.",
             delete_after=TIME_DELETE)
     except:
-        await send_channel_message(f"Unable to send dm to {loser.mention}. Adding points automatically.", CHANNEL_ID)
+        await this_message.reply(f"Unable to send dm to {loser.mention}. Adding points automatically.")
         await update_elo(winner, loser)
         logger.warning(f"Unable to send message to {loser.name}, points added to {winner.name}")
         return
@@ -123,7 +123,7 @@ async def beat(ctx):
     if ctx.message.author.nick == None:
         # CAN_ADD_IDS.append(ctx.message.author.id) -> for user can change names
         await ctx.message.author.edit(nick=ctx.message.author.name + "[0]")
-    await confirm_game(winner=ctx.message.author, loser=loser)
+    await confirm_game(ctx.message.author, loser, ctx.message)
 
 @client.command(name="update", aliases=["updatePoints"])
 @has_permissions(administrator=True)
@@ -197,6 +197,12 @@ async def checkCheaters(ctx, *args):
               await send_channel_message(f"{cheater.mention} you played the same player too many times. Talk to {role.mention} to get privileges back.", RESULTS_ID)
    
 
+# TOURNE MODE:
+@client.command(name="ping")
+@has_permissions(administrator=True)
+async def ping(ctx, *args):
+    await send_channel_message("You do be pinging me doe", ctx.channel.id)
+
 
 # Use on_raw_message_delete if you want it to check messages from before the last loading.
 @client.event
@@ -258,8 +264,8 @@ async def update_elo(winner, loser):
     await send_channel_message(f"Winner: {winner.mention} Points Added: {int(points)}\nLoser: {loser.mention} Points Taken: {int(points)}\n", RESULTS_ID)
 
 
-async def confirm_game(winner, loser):
-    await send_dm_to_loser(winner, loser)
+async def confirm_game(winner, loser, message):
+    await send_dm_to_loser(winner, loser, message)
 
 
 async def change_role(member, elo_points):

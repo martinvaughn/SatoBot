@@ -854,3 +854,45 @@
 2021-07-21 21:09:42,318 testdummy[516] about to be added elo.
 2021-07-21 21:09:42,318 testdummy[516] name after elo added: testdummy[478]
 2021-07-21 21:09:42,391 User name: martinvaughn Exception line 256 main
+2021-07-21 21:26:14,006 Helper initializing.
+2021-07-21 21:26:14,007 Main initializing.
+2021-07-21 21:26:14,024 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 21:26:14,026 logging in using static token
+2021-07-21 21:26:14,246 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 21:26:14,369 Shard ID None has connected to Gateway: ["gateway-prd-main-wsrp",{"micros":80238,"calls":["discord-sessions-blue-prd-2-37",{"micros":79367,"calls":["start_session",{"micros":68685,"calls":["api-prd-main-h8pp",{"micros":62609,"calls":["get_user",{"micros":7248},"add_authorized_ip",{"micros":3328},"get_guilds",{"micros":12259},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":7767,"calls":[]}]}]}] (Session ID: b306ac8d1abb5f300fbbafa4f607c936).
+2021-07-21 21:32:55,168 Cleaning up tasks.
+2021-07-21 21:32:55,169 Cleaning up after 1 tasks.
+2021-07-21 21:32:55,170 All tasks finished cancelling.
+2021-07-21 21:32:55,170 Closing the event loop.
+2021-07-21 21:33:20,564 Helper initializing.
+2021-07-21 21:33:20,564 Main initializing.
+2021-07-21 21:33:20,582 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 21:33:20,584 logging in using static token
+2021-07-21 21:33:20,844 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 21:33:20,958 Shard ID None has connected to Gateway: ["gateway-prd-main-qlzq",{"micros":73846,"calls":["discord-sessions-blue-prd-2-10",{"micros":72847,"calls":["start_session",{"micros":50201,"calls":["api-prd-main-mk5d",{"micros":47340,"calls":["get_user",{"micros":8078},"add_authorized_ip",{"micros":7073},"get_guilds",{"micros":5320},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":11743,"calls":[]}]}]}] (Session ID: b6737b1aaa6ed1b69f1eec6388ce4d28).
+2021-07-21 21:34:07,409 Cleaning up tasks.
+2021-07-21 21:34:07,409 Cleaning up after 1 tasks.
+2021-07-21 21:34:07,410 All tasks finished cancelling.
+2021-07-21 21:34:07,411 Closing the event loop.
+2021-07-21 21:34:08,752 Helper initializing.
+2021-07-21 21:34:08,753 Main initializing.
+2021-07-21 21:34:08,772 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 21:34:08,775 logging in using static token
+2021-07-21 21:34:09,032 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 21:34:09,131 Shard ID None has connected to Gateway: ["gateway-prd-main-46js",{"micros":51894,"calls":["discord-sessions-blue-prd-2-44",{"micros":42784,"calls":["start_session",{"micros":29833,"calls":["api-prd-main-xsp4",{"micros":25926,"calls":["get_user",{"micros":2496},"add_authorized_ip",{"micros":1390},"get_guilds",{"micros":3916},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":12415,"calls":[]}]}]}] (Session ID: 2c7e50a96bb324079801ac65f725d83a).
+2021-07-21 21:34:25,228 Marty about to be added elo.
+2021-07-21 21:34:25,228 Marty name after elo added: Marty[20]
+2021-07-21 21:34:25,228 ovrpay[0] about to be added elo.
+2021-07-21 21:34:25,228 ovrpay[0] name after elo added: ovrpay[0]
+2021-07-21 21:34:25,294 User name: martinvaughn Exception line 256 main
+2021-07-21 21:34:25,652 Unable to send message to ovrpay, points added to martinvaughn
+2021-07-21 21:35:52,283 Cleaning up tasks.
+2021-07-21 21:35:52,283 Cleaning up after 1 tasks.
+2021-07-21 21:35:52,284 All tasks finished cancelling.
+2021-07-21 21:35:52,285 Closing the event loop.
+2021-07-21 21:36:02,039 Helper initializing.
+2021-07-21 21:36:02,039 Main initializing.
+2021-07-21 21:36:02,057 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 21:36:02,060 logging in using static token
+2021-07-21 21:36:02,286 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 21:36:02,439 Shard ID None has connected to Gateway: ["gateway-prd-main-5fkx",{"micros":109829,"calls":["discord-sessions-blue-prd-2-32",{"micros":108995,"calls":["start_session",{"micros":89979,"calls":["api-prd-main-kvmn",{"micros":87351,"calls":["get_user",{"micros":9349},"add_authorized_ip",{"micros":9778},"get_guilds",{"micros":22803},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":18359,"calls":[]}]}]}] (Session ID: 2860ebbc3e1f54eacd4a68e904687aa8).
