@@ -1,6 +1,6 @@
 import helper
 
-WEIGHT = 40
+WEIGHT = 200
 ROLES = [
   858419991477223484, # Academy Student 
   858420330614751272, # LAG GUARDIAN

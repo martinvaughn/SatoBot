@@ -150,7 +150,7 @@ async def slb(ctx, *args):
         elo_list.append((member.nick, current_elo))
     sorted_elo_list = sorted(elo_list, key=lambda x: x[1], reverse=True)
     await send_channel_message(f''' 
-    ╭──── SATO LEADERBOARD ────╮
+    ╭─── SATO LEADERBOARD ───╮
      1. {sorted_elo_list[0][0]}
      2. {sorted_elo_list[1][0]}
      3. {sorted_elo_list[2][0]}
@@ -161,7 +161,7 @@ async def slb(ctx, *args):
      8. {sorted_elo_list[7][0]}
      9. {sorted_elo_list[8][0]}
      10. {sorted_elo_list[9][0]}
-╰──────────────────────╯''', CHANNEL_ID)
+╰─── SATO LEADERBOARD ───╯''', CHANNEL_ID)
     # elo_list.sort( BOOM )
 
 
@@ -211,6 +211,20 @@ async def checkCheaters(ctx, *args):
 async def ping(ctx, *args):
     await ctx.message.reply("You do be pinging me doe")
 
+# TOURNE MODE:
+@client.command(name="shelp")
+async def sato_help(ctx, *args):
+    await ctx.message.reply('''
+    ╭─── SATO COMMANDS ───╮
+
+    1. !beat - Tag whoever you beat.
+    2. !slb - Show Leaderboard.
+    3. !ref - Catch cheaters.
+    4. !update (admin only) - Update points.
+
+
+╰─── SATO COMMANDS ───╯
+    ''')
 
 # Use on_raw_message_delete if you want it to check messages from before the last loading.
 @client.event
