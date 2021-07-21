@@ -7,6 +7,7 @@ import helper
 import elo
 from datetime import datetime, timedelta
 import logging
+from collections import Counter
 
 
 logging.basicConfig(filename="main.log",
@@ -22,11 +23,13 @@ TEN_MIN = 600  # 10 minutes in seconds
 CHANNEL_ID = 850867690318200833  # ID of channel to send most messages.
 RESULTS_ID = 858081752421236836 # ID of channel to send results.
 GUILD_ID = 848422158857142323 # ID of the server in use.
+CHEATER_ROLE_ID = 867473815167959080
 # NAME_CHANGE_QUEUE = []  # IDs of names that can be changed --> For when people can change name
 MESSAGE_CAN_DELETE = {}  # Messages that can be deleted by the bot.
 MESSAGE_CAN_DELETE_DISPUTES = []  # Same as ^ but also for disputed messages.
 # CAN_ADD_IDS = []  # List of IDs of who can have Elo added. Only people who've played can have elo added.
 TIME_DELETE = 90  # 86400 seconds == 24 hours
+SAME_USER_PLAY_LIMIT = 5
 
 Intents = discord.Intents()
 intents = Intents.all()
@@ -144,7 +147,7 @@ async def leaderboard(ctx, *args):
         current_elo = elo.get_current_elo(member)
         elo_list.append((member.nick, current_elo))
     sorted_elo_list = sorted(elo_list, key=lambda x: x[1], reverse=True)
-    await send_channel_message(f'''
+    await send_channel_message(f''' ```\Blue
     ╭──── SATO LEADERBOARD ────╮
      1. {sorted_elo_list[0][0]}
      2. {sorted_elo_list[1][0]}
@@ -165,24 +168,34 @@ async def leaderboard(ctx, *args):
 @has_permissions(administrator=True)
 async def checkCheaters(ctx, *args):
     beaters = {}
+    guild = client.get_guild(GUILD_ID)
     now = datetime.today()
     yesterday = now - timedelta(days=1)
-    print(now)
-    print(yesterday)
     channel = client.get_channel(CHANNEL_ID)
     messages = await channel.history(after=yesterday, before=now).flatten()
     for message in messages:
       if message.content.startswith("!beat") and message.mentions:
-        if message.author.nick in beaters:
-          old_list = beaters[message.author.nick]
-          old_list.append(message.mentions[0].name)
-          beaters[message.author.nick] = old_list
+        if message.author.id in beaters:
+          old_list = beaters[message.author.id]
+          old_list.append(message.mentions[0].id)
+          beaters[message.author.id] = old_list
         else:
-          beaters[message.author.nick] = [message.mentions[0].name]
-        print(beaters)
-
-    # guild = client.get_guild(GUILD_ID)
-    channel = ""
+          beaters[message.author.id] = [message.mentions[0].id]
+  
+    for user in beaters:
+      if isinstance(beaters[user] , list):
+        counts = Counter(beaters[user])
+        for c in counts:
+          if counts[c] >= SAME_USER_PLAY_LIMIT:
+            role = get(guild.roles, id=CHEATER_ROLE_ID)
+            cheater = get(client.get_all_members(), id=user)
+            if role not in cheater.roles:
+              await cheater.add_roles(role)
+              channel = client.get_channel(RESULTS_ID)
+              guild = client.get_guild(GUILD_ID)
+              role = get(guild.roles, id=ADMIN_ROLE_ID)
+              await send_channel_message(f"{cheater.mention} you played the same player too many times. Talk to {role.mention} to get privileges back.", RESULTS_ID)
+   
 
 
 # Use on_raw_message_delete if you want it to check messages from before the last loading.
