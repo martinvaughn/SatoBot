@@ -5,6 +5,8 @@ from discord.ext.commands import MemberConverter, has_permissions, CommandNotFou
 from discord.utils import get
 import helper
 import elo
+from datetime import datetime, timedelta
+from collections import Counter
 import logging
 
 
@@ -20,6 +22,8 @@ CHANNEL_ID = 858467481449922571 # ID of channel to send most messages.
 RESULTS_ID = 858467749662556220 # ID of channel to send results.
 GUILD_ID = 702601188247601174 # ID of the server in use.
 
+CHEATER_ROLE_ID = 867538252616564746
+SAME_USER_PLAY_LIMIT = 10
 
 # NAME_CHANGE_QUEUE = []  # IDs of names that can be changed --> For when people can change name
 MESSAGE_CAN_DELETE = {}  # Messages that can be deleted by the bot.
@@ -133,6 +137,79 @@ async def update_name(ctx, *args):
     nick = helper.check_name_length(nick)
     # CAN_ADD_IDS.append(member.id)
     await member.edit(nick=nick)
+
+
+# TOURNE MODE:
+@client.command(name="slb")
+async def slb(ctx, *args):
+    elo_list = []
+    guild = client.get_guild(GUILD_ID)
+    for member in guild.members:
+      if member.nick is not None:
+        current_elo = elo.get_current_elo(member)
+        elo_list.append((member.nick, current_elo))
+    sorted_elo_list = sorted(elo_list, key=lambda x: x[1], reverse=True)
+    await send_channel_message(f''' 
+    ╭──── SATO LEADERBOARD ────╮
+     1. {sorted_elo_list[0][0]}
+     2. {sorted_elo_list[1][0]}
+     3. {sorted_elo_list[2][0]}
+     4. {sorted_elo_list[3][0]}
+     5. {sorted_elo_list[4][0]}
+     6. {sorted_elo_list[5][0]}
+     7. {sorted_elo_list[6][0]}
+     8. {sorted_elo_list[7][0]}
+     9. {sorted_elo_list[8][0]}
+     10. {sorted_elo_list[9][0]}
+╰──────────────────────╯''', CHANNEL_ID)
+    # elo_list.sort( BOOM )
+
+
+# TOURNE MODE:
+@client.command(name="ref")
+async def checkCheaters(ctx, *args):
+    red_cards = 0
+    beaters = {}
+    guild = client.get_guild(GUILD_ID)
+    now = datetime.today()
+    yesterday = now - timedelta(days=1)
+    channel = client.get_channel(CHANNEL_ID)
+    messages = await channel.history(after=yesterday, before=now).flatten()
+    for message in messages:
+      if message.content.startswith("!beat") and message.mentions:
+        if message.author.id in beaters:
+          old_list = beaters[message.author.id]
+          old_list.append(message.mentions[0].id)
+          beaters[message.author.id] = old_list
+        else:
+          beaters[message.author.id] = [message.mentions[0].id]
+  
+    for user in beaters:
+      if isinstance(beaters[user] , list):
+        counts = Counter(beaters[user])
+        for c in counts:
+          if counts[c] >= SAME_USER_PLAY_LIMIT:
+            role = get(guild.roles, id=CHEATER_ROLE_ID)
+            cheater = get(client.get_all_members(), id=user)
+            if role not in cheater.roles:
+              await cheater.add_roles(role)
+              red_cards += 1
+              channel = client.get_channel(RESULTS_ID)
+              guild = client.get_guild(GUILD_ID)
+              role = get(guild.roles, id=ADMIN_ROLE_ID)
+              await send_channel_message(f"{cheater.mention} you played the same player too many times. Talk to {role.mention} to get privileges back.", RESULTS_ID)
+  
+    if red_cards < 1:
+      await ctx.message.reply("All clear. No penalties given.")   
+    else: 
+      await ctx.message.reply("Penalties given. Check Results.")  
+   
+
+# TOURNE MODE:
+@client.command(name="sping")
+@has_permissions(administrator=True)
+async def ping(ctx, *args):
+    await ctx.message.reply("You do be pinging me doe")
 
 
 # Use on_raw_message_delete if you want it to check messages from before the last loading.

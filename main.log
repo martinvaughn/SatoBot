@@ -1,0 +1,339 @@
+2021-06-26 23:44:51,362 Helper initializing.
+2021-06-26 23:44:51,362 Main initializing.
+2021-06-26 23:44:51,395 PyNaCl is not installed, voice will NOT be supported
+2021-06-26 23:44:51,401 logging in using static token
+2021-06-26 23:44:51,658 Shard ID None has sent the IDENTIFY payload.
+2021-06-26 23:44:51,761 Shard ID None has connected to Gateway: ["gateway-prd-main-2h7w",{"micros":63196,"calls":["discord-sessions-green-prd-2-132",{"micros":59912,"calls":["start_session",{"micros":28754,"calls":["api-prd-main-28j3",{"micros":25976,"calls":["get_user",{"micros":2664},"add_authorized_ip",{"micros":1657},"get_guilds",{"micros":3654},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":15800,"calls":[]}]}]}] (Session ID: e384d888efea52d569cb5fd18708d62c).
+2021-06-26 23:45:13,568 Cleaning up tasks.
+2021-06-26 23:45:13,568 Cleaning up after 1 tasks.
+2021-06-26 23:45:13,569 All tasks finished cancelling.
+2021-06-26 23:45:13,569 Closing the event loop.
+2021-06-26 23:45:31,300 Helper initializing.
+2021-06-26 23:45:31,301 Main initializing.
+2021-06-26 23:45:31,320 PyNaCl is not installed, voice will NOT be supported
+2021-06-26 23:45:31,323 logging in using static token
+2021-06-26 23:45:31,590 Shard ID None has sent the IDENTIFY payload.
+2021-06-26 23:45:31,709 Shard ID None has connected to Gateway: ["gateway-prd-main-0vp1",{"micros":78493,"calls":["discord-sessions-green-prd-2-125",{"micros":76123,"calls":["start_session",{"micros":35712,"calls":["api-prd-main-dbg3",{"micros":31187,"calls":["get_user",{"micros":2792},"add_authorized_ip",{"micros":1571},"get_guilds",{"micros":3892},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":28871,"calls":[]}]}]}] (Session ID: d665c58b7bb3cf6e0e4c8985f4fb0728).
+2021-06-26 23:45:35,197 Nogg (Minecraft Staff) about to be added elo.
+2021-06-26 23:45:35,197 Nogg (Minecraft Staff) name after elo added: Nogg (Minecraft Staff)[20]
+2021-06-26 23:45:35,197 Ovrpay about to be added elo.
+2021-06-26 23:45:35,197 Ovrpay name after elo added: Ovrpay[0]
+2021-06-26 23:45:35,401 User name: ovrpay Exception line 262 main
+2021-06-26 23:45:35,513 Unable to send message to ovrpay, points added to Nogg
+
+2021-06-26 23:46:50,490 ジェイロン about to be added elo.
+2021-06-26 23:46:50,490 ジェイロン name after elo added: ジェイロン[20]
+2021-06-26 23:46:50,491 Ovrpay about to be added elo.
+2021-06-26 23:46:50,491 Ovrpay name after elo added: Ovrpay[0]
+2021-06-26 23:46:50,717 User name: ovrpay Exception line 262 main
+2021-06-26 23:46:50,853 Unable to send message to ovrpay, points added to Jayron
+
+2021-06-26 23:46:56,376 Nogg (Minecraft Staff)[200] about to be added elo.
+2021-06-26 23:46:56,376 Nogg (Minecraft Staff)[200] name after elo added: Nogg (Minecraft Staff)[210]
+2021-06-26 23:46:56,376 Ovrpay about to be added elo.
+2021-06-26 23:46:56,376 Ovrpay name after elo added: Ovrpay[0]
+2021-06-26 23:46:56,616 User name: ovrpay Exception line 262 main
+2021-06-26 23:46:56,747 Unable to send message to ovrpay, points added to Nogg
+
+2021-06-26 23:48:10,624 Nogg (Minecraft Staff)[10000] about to be added elo.
+2021-06-26 23:48:10,624 Nogg (Minecraft Staff)[10000] name after elo added: Nogg (Minecraft Staff)[10001]
+2021-06-26 23:48:10,624 Ovrpay about to be added elo.
+2021-06-26 23:48:10,625 Ovrpay name after elo added: Ovrpay[0]
+2021-06-26 23:48:10,871 User name: ovrpay Exception line 262 main
+2021-06-26 23:48:11,004 Unable to send message to ovrpay, points added to Nogg
+
+2021-06-26 23:48:23,002 ジェイロン[20] about to be added elo.
+2021-06-26 23:48:23,002 ジェイロン[20] name after elo added: ジェイロン[39]
+2021-06-26 23:48:23,002 Ovrpay about to be added elo.
+2021-06-26 23:48:23,003 Ovrpay name after elo added: Ovrpay[0]
+2021-06-26 23:48:23,206 User name: ovrpay Exception line 262 main
+2021-06-26 23:48:23,337 Unable to send message to ovrpay, points added to Jayron
+
+2021-06-26 23:49:15,410 ジェイロン[39] about to be added elo.
+2021-06-26 23:49:15,412 ジェイロン[39] name after elo added: ジェイロン[57]
+2021-06-26 23:49:15,412 mobslayer about to be added elo.
+2021-06-26 23:49:15,412 mobslayer name after elo added: mobslayer[0]
+2021-06-26 23:49:16,889 ジェイロン[57] about to be added elo.
+2021-06-26 23:49:16,889 ジェイロン[57] name after elo added: ジェイロン[74]
+2021-06-26 23:49:16,889 mobslayer[0] about to be added elo.
+2021-06-26 23:49:16,890 mobslayer[0] name after elo added: mobslayer[0]
+2021-06-26 23:49:18,288 ジェイロン[74] about to be added elo.
+2021-06-26 23:49:18,288 ジェイロン[74] name after elo added: ジェイロン[90]
+2021-06-26 23:49:18,288 mobslayer[0] about to be added elo.
+2021-06-26 23:49:18,288 mobslayer[0] name after elo added: mobslayer[0]
+2021-06-26 23:51:35,692 Nogg[0] about to be added elo.
+2021-06-26 23:51:35,692 Nogg[0] name after elo added: Nogg[20]
+2021-06-26 23:51:35,692 mugwumpt about to be added elo.
+2021-06-26 23:51:35,692 mugwumpt name after elo added: mugwumpt[0]
+2021-06-26 23:54:27,532 mugwumpt[0] about to be added elo.
+2021-06-26 23:54:27,532 mugwumpt[0] name after elo added: mugwumpt[20]
+2021-06-26 23:54:27,532 verbato (verbwumpt) about to be added elo.
+2021-06-26 23:54:27,532 verbato (verbwumpt) name after elo added: verbato (verbwumpt)[0]
+2021-06-26 23:57:06,537 mugwumpt[20] about to be added elo.
+2021-06-26 23:57:06,537 mugwumpt[20] name after elo added: mugwumpt[39]
+2021-06-26 23:57:06,538 verbato (verbwumpt)[0] about to be added elo.
+2021-06-26 23:57:06,538 verbato (verbwumpt)[0] name after elo added: verbato (verbwumpt)[0]
+2021-06-27 00:02:45,138 verbato (verbwumpt)[0] about to be added elo.
+2021-06-27 00:02:45,138 verbato (verbwumpt)[0] name after elo added: verbato (verbwumpt)[21]
+2021-06-27 00:02:45,139 Nogg[20] about to be added elo.
+2021-06-27 00:02:45,139 Nogg[20] name after elo added: Nogg[0]
+2021-06-27 00:05:30,208 mugwumpt[39] about to be added elo.
+2021-06-27 00:05:30,209 mugwumpt[39] name after elo added: mugwumpt[57]
+2021-06-27 00:05:30,209 Nogg[0] about to be added elo.
+2021-06-27 00:05:30,209 Nogg[0] name after elo added: Nogg[0]
+2021-06-27 00:49:41,209 Helper initializing.
+2021-06-27 00:49:41,209 Main initializing.
+2021-06-27 00:49:41,223 PyNaCl is not installed, voice will NOT be supported
+2021-06-27 00:49:41,224 logging in using static token
+2021-06-27 00:49:41,443 Shard ID None has sent the IDENTIFY payload.
+2021-06-27 00:49:41,534 Shard ID None has connected to Gateway: ["gateway-prd-main-6gj7",{"micros":46048,"calls":["discord-sessions-green-prd-2-147",{"micros":39939,"calls":["start_session",{"micros":30077,"calls":["api-prd-main-f9q2",{"micros":26223,"calls":["get_user",{"micros":2505},"add_authorized_ip",{"micros":1667},"get_guilds",{"micros":4056},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":2358,"calls":[]}]}]}] (Session ID: 244449edc43b4c58066383734c20044a).
+2021-07-21 19:06:27,231 Helper initializing.
+2021-07-21 19:06:27,232 Main initializing.
+2021-07-21 19:06:27,245 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 19:06:27,247 logging in using static token
+2021-07-21 19:06:27,533 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 19:06:27,713 Shard ID None has connected to Gateway: ["gateway-prd-main-m2g5",{"micros":108479,"calls":["discord-sessions-blue-prd-2-152",{"micros":105517,"calls":["start_session",{"micros":71479,"calls":["api-prd-main-c0kq",{"micros":64581,"calls":["get_user",{"micros":11366},"add_authorized_ip",{"micros":1441},"get_guilds",{"micros":3463},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":9,"calls":[]},"presence_connect",{"micros":33540,"calls":[]}]}]}] (Session ID: e23c129e0407b69cbbe48fab7ed7d45b).
+2021-07-21 19:50:08,000 Got a request to RESUME the websocket.
+2021-07-21 19:50:08,135 Shard ID None has sent the RESUME payload.
+2021-07-21 19:50:08,178 Shard ID None has successfully RESUMED session e23c129e0407b69cbbe48fab7ed7d45b under trace ["gateway-prd-main-5b1p",{"micros":682,"calls":["discord-sessions-blue-prd-2-152",{"micros":46}]}].
+2021-07-21 19:51:18,901 Websocket closed with 1006, attempting a reconnect.
+2021-07-21 19:51:18,901 Got a request to RESUME the websocket.
+2021-07-21 19:51:19,064 Shard ID None has sent the RESUME payload.
+2021-07-21 19:51:19,117 Shard ID None has successfully RESUMED session e23c129e0407b69cbbe48fab7ed7d45b under trace ["gateway-prd-main-nv0m",{"micros":7744,"calls":["discord-sessions-blue-prd-2-152",{"micros":78}]}].
+2021-07-21 20:58:10,103 Websocket closed with 1006, attempting a reconnect.
+2021-07-21 20:58:10,103 Got a request to RESUME the websocket.
+2021-07-21 20:58:10,234 Shard ID None has sent the RESUME payload.
+2021-07-21 20:58:10,274 Shard ID None has successfully RESUMED session e23c129e0407b69cbbe48fab7ed7d45b under trace ["gateway-prd-main-c894",{"micros":2658,"calls":["discord-sessions-blue-prd-2-152",{"micros":43}]}].
+2021-07-21 20:59:28,496 Websocket closed with 1006, attempting a reconnect.
+2021-07-21 20:59:28,497 Got a request to RESUME the websocket.
+2021-07-21 20:59:28,653 Shard ID None has sent the RESUME payload.
+2021-07-21 20:59:28,709 Shard ID None has successfully RESUMED session e23c129e0407b69cbbe48fab7ed7d45b under trace ["gateway-prd-main-409b",{"micros":4285,"calls":["discord-sessions-blue-prd-2-152",{"micros":77}]}].
+2021-07-21 22:19:53,016 Helper initializing.
+2021-07-21 22:19:53,019 Main initializing.
+2021-07-21 22:19:53,038 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 22:19:53,041 logging in using static token
+2021-07-21 22:19:53,267 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 22:19:53,429 Shard ID None has connected to Gateway: ["gateway-prd-main-n8lp",{"micros":105552,"calls":["discord-sessions-blue-prd-2-123",{"micros":103423,"calls":["start_session",{"micros":81656,"calls":["api-prd-main-kcpx",{"micros":62183,"calls":["get_user",{"micros":7936},"add_authorized_ip",{"micros":1380},"get_guilds",{"micros":5086},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":19474,"calls":[]}]}]}] (Session ID: 877220bef626441e9aba7573d4722212).
+2021-07-21 22:42:56,976 Cleaning up tasks.
+2021-07-21 22:42:56,977 Cleaning up after 1 tasks.
+2021-07-21 22:42:56,978 All tasks finished cancelling.
+2021-07-21 22:42:56,978 Closing the event loop.
+2021-07-21 22:49:13,402 Helper initializing.
+2021-07-21 22:49:13,403 Main initializing.
+2021-07-21 22:49:13,428 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 22:49:13,430 logging in using static token
+2021-07-21 22:49:13,663 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 22:49:13,811 Shard ID None has connected to Gateway: ["gateway-prd-main-n33d",{"micros":105923,"calls":["discord-sessions-blue-prd-2-79",{"micros":97218,"calls":["start_session",{"micros":32244,"calls":["api-prd-main-pqdc",{"micros":28666,"calls":["get_user",{"micros":3861},"add_authorized_ip",{"micros":3031},"get_guilds",{"micros":4996},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":35659,"calls":[]}]}]}] (Session ID: a1b4ad2d75ef449e77974aeea0e480fd).
+2021-07-21 22:49:44,368 Cleaning up tasks.
+2021-07-21 22:49:44,368 Cleaning up after 1 tasks.
+2021-07-21 22:49:44,370 All tasks finished cancelling.
+2021-07-21 22:49:44,370 Closing the event loop.
+2021-07-21 22:49:49,996 Helper initializing.
+2021-07-21 22:49:49,996 Main initializing.
+2021-07-21 22:49:50,016 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 22:49:50,018 logging in using static token
+2021-07-21 22:49:50,264 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 22:49:50,380 Shard ID None has connected to Gateway: ["gateway-prd-main-s1wd",{"micros":77379,"calls":["discord-sessions-blue-prd-2-2",{"micros":76623,"calls":["start_session",{"micros":61140,"calls":["api-prd-main-j88h",{"micros":55174,"calls":["get_user",{"micros":4564},"add_authorized_ip",{"micros":3754},"get_guilds",{"micros":11471},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14985,"calls":[]}]}]}] (Session ID: 74d019a91c3c3dbaff4f3e94619f9324).
+2021-07-21 22:51:43,626 Cleaning up tasks.
+2021-07-21 22:51:43,627 Cleaning up after 1 tasks.
+2021-07-21 22:51:43,629 All tasks finished cancelling.
+2021-07-21 22:51:43,629 Closing the event loop.
+2021-07-21 22:51:45,812 Helper initializing.
+2021-07-21 22:51:45,813 Main initializing.
+2021-07-21 22:51:45,829 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 22:51:45,831 logging in using static token
+2021-07-21 22:51:46,055 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 22:51:46,172 Shard ID None has connected to Gateway: ["gateway-prd-main-vp53",{"micros":74796,"calls":["discord-sessions-blue-prd-2-140",{"micros":73866,"calls":["start_session",{"micros":34000,"calls":["api-prd-main-n2r4",{"micros":30616,"calls":["get_user",{"micros":2779},"add_authorized_ip",{"micros":1454},"get_guilds",{"micros":4031},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 34a74af82d2068021c96a3c7b571d1a4).
+2021-07-21 22:52:39,931 Cleaning up tasks.
+2021-07-21 22:52:39,931 Cleaning up after 1 tasks.
+2021-07-21 22:52:39,932 All tasks finished cancelling.
+2021-07-21 22:52:39,933 Closing the event loop.
+2021-07-21 22:52:41,423 Helper initializing.
+2021-07-21 22:52:41,423 Main initializing.
+2021-07-21 22:52:41,442 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 22:52:41,444 logging in using static token
+2021-07-21 22:52:41,670 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 22:52:41,788 Shard ID None has connected to Gateway: ["gateway-prd-main-28ns",{"micros":75362,"calls":["discord-sessions-blue-prd-2-167",{"micros":71030,"calls":["start_session",{"micros":38669,"calls":["api-prd-main-42wh",{"micros":35517,"calls":["get_user",{"micros":2625},"add_authorized_ip",{"micros":1387},"get_guilds",{"micros":8366},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":16564,"calls":[]}]}]}] (Session ID: 03357231601f191abb302c13acdbf72b).
+2021-07-21 22:54:49,479 Cleaning up tasks.
+2021-07-21 22:54:49,480 Cleaning up after 2 tasks.
+2021-07-21 22:54:49,481 All tasks finished cancelling.
+2021-07-21 22:54:49,481 Closing the event loop.
+2021-07-21 22:54:56,940 Helper initializing.
+2021-07-21 22:54:56,940 Main initializing.
+2021-07-21 22:54:56,957 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 22:54:56,959 logging in using static token
+2021-07-21 22:54:57,202 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 22:54:57,326 Shard ID None has connected to Gateway: ["gateway-prd-main-w9l3",{"micros":67754,"calls":["discord-sessions-blue-prd-2-20",{"micros":66789,"calls":["start_session",{"micros":58182,"calls":["api-prd-main-n1rv",{"micros":48864,"calls":["get_user",{"micros":4393},"add_authorized_ip",{"micros":3648},"get_guilds",{"micros":6611},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":631,"calls":[]}]}]}] (Session ID: b903c4618cc1ed6f701d1796ea6b6160).
+2021-07-21 22:55:19,575 Cleaning up tasks.
+2021-07-21 22:55:19,575 Cleaning up after 1 tasks.
+2021-07-21 22:55:19,577 All tasks finished cancelling.
+2021-07-21 22:55:19,577 Closing the event loop.
+2021-07-21 22:55:43,047 Helper initializing.
+2021-07-21 22:55:43,047 Main initializing.
+2021-07-21 22:55:43,064 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 22:55:43,067 logging in using static token
+2021-07-21 22:55:43,312 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 22:55:43,386 Shard ID None has connected to Gateway: ["gateway-prd-main-0v55",{"micros":33622,"calls":["discord-sessions-blue-prd-2-32",{"micros":32901,"calls":["start_session",{"micros":31411,"calls":["api-prd-main-5z12",{"micros":27845,"calls":["get_user",{"micros":2529},"add_authorized_ip",{"micros":1409},"get_guilds",{"micros":5034},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":904,"calls":[]}]}]}] (Session ID: b94239c22762049a60a78214bb88ca67).
+2021-07-21 22:57:48,098 Ashton (Ovrpay's Adopted Child) about to be added elo.
+2021-07-21 22:57:48,098 Name Ashton (Ovrpay's Adopted Child) was too long, being shortened.
+2021-07-21 22:57:48,098 Ashton (Ovrpay's Adopted Child) name after elo added: Ashton (Ovrpay's Adopted[29]
+2021-07-21 22:57:48,098 Ovrpay[163] about to be added elo.
+2021-07-21 22:57:48,098 Ovrpay[163] name after elo added: Ovrpay[134]
+2021-07-21 22:57:48,326 User name: ovrpay Exception line 262 main
+2021-07-21 22:57:48,439 Unable to send message to ovrpay, points added to mentally unstable <3
+
+2021-07-21 22:58:16,660 Ashton (Ovrpay's Adopted[29] about to be added elo.
+2021-07-21 22:58:16,660 Ashton (Ovrpay's Adopted[29] name after elo added: Ashton (Ovrpay's Adopted[56]
+2021-07-21 22:58:16,660 Ovrpay[163] about to be added elo.
+2021-07-21 22:58:16,660 Ovrpay[163] name after elo added: Ovrpay[136]
+2021-07-21 22:58:16,920 User name: ovrpay Exception line 262 main
+2021-07-21 22:58:17,090 Unable to send message to ovrpay, points added to mentally unstable <3
+
+2021-07-21 22:58:18,780 Ashton (Ovrpay's Adopted[56] about to be added elo.
+2021-07-21 22:58:18,781 Ashton (Ovrpay's Adopted[56] name after elo added: Ashton (Ovrpay's Adopted[82]
+2021-07-21 22:58:18,781 Ovrpay[163] about to be added elo.
+2021-07-21 22:58:18,781 Ovrpay[163] name after elo added: Ovrpay[137]
+2021-07-21 22:58:18,976 User name: ovrpay Exception line 262 main
+2021-07-21 22:58:19,156 Unable to send message to ovrpay, points added to mentally unstable <3
+
+2021-07-21 22:58:22,559 Ashton (Ovrpay's Adopted[82] about to be added elo.
+2021-07-21 22:58:22,560 Ashton (Ovrpay's Adopted[82] name after elo added: Ashton (Ovrpay's Adopted[107]
+2021-07-21 22:58:22,560 Ovrpay[163] about to be added elo.
+2021-07-21 22:58:22,560 Ovrpay[163] name after elo added: Ovrpay[138]
+2021-07-21 22:58:22,797 User name: ovrpay Exception line 262 main
+2021-07-21 22:58:23,040 Unable to send message to ovrpay, points added to mentally unstable <3
+
+2021-07-21 22:58:24,286 Ashton (Ovrpay's Adopted[107] about to be added elo.
+2021-07-21 22:58:24,286 Ashton (Ovrpay's Adopted[107] name after elo added: Ashton (Ovrpay's Adopted[130]
+2021-07-21 22:58:24,286 Ovrpay[163] about to be added elo.
+2021-07-21 22:58:24,286 Ovrpay[163] name after elo added: Ovrpay[140]
+2021-07-21 22:58:24,517 User name: ovrpay Exception line 262 main
+2021-07-21 22:58:24,738 Unable to send message to ovrpay, points added to mentally unstable <3
+
+2021-07-21 22:58:26,406 Ashton (Ovrpay's Adopted[130] about to be added elo.
+2021-07-21 22:58:26,406 Ashton (Ovrpay's Adopted[130] name after elo added: Ashton (Ovrpay's Adopted[152]
+2021-07-21 22:58:26,406 Ovrpay[163] about to be added elo.
+2021-07-21 22:58:26,406 Ovrpay[163] name after elo added: Ovrpay[141]
+2021-07-21 22:58:26,611 User name: ovrpay Exception line 262 main
+2021-07-21 22:58:26,741 Unable to send message to ovrpay, points added to mentally unstable <3
+
+2021-07-21 23:02:18,052 Cleaning up tasks.
+2021-07-21 23:02:18,052 Cleaning up after 4 tasks.
+2021-07-21 23:02:18,056 All tasks finished cancelling.
+2021-07-21 23:02:18,057 Closing the event loop.
+2021-07-21 23:02:21,405 Helper initializing.
+2021-07-21 23:02:21,406 Main initializing.
+2021-07-21 23:02:21,425 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 23:02:21,427 logging in using static token
+2021-07-21 23:02:21,652 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 23:02:21,775 Shard ID None has connected to Gateway: ["gateway-prd-main-gr7l",{"micros":78035,"calls":["discord-sessions-blue-prd-2-97",{"micros":74548,"calls":["start_session",{"micros":25852,"calls":["api-prd-main-3xjq",{"micros":23351,"calls":["get_user",{"micros":2015},"add_authorized_ip",{"micros":1187},"get_guilds",{"micros":3887},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":28480,"calls":[]}]}]}] (Session ID: b8ca2d74be89dac8feb4559d17eb9e12).
+2021-07-21 23:03:31,007 Cleaning up tasks.
+2021-07-21 23:03:31,008 Cleaning up after 1 tasks.
+2021-07-21 23:03:31,010 All tasks finished cancelling.
+2021-07-21 23:03:31,010 Closing the event loop.
+2021-07-21 23:03:52,342 Helper initializing.
+2021-07-21 23:03:52,358 Main initializing.
+2021-07-21 23:03:52,398 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 23:03:52,401 logging in using static token
+2021-07-21 23:03:52,653 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 23:03:52,764 Shard ID None has connected to Gateway: ["gateway-prd-main-qf84",{"micros":62864,"calls":["discord-sessions-blue-prd-2-23",{"micros":62019,"calls":["start_session",{"micros":35497,"calls":["api-prd-main-k6q3",{"micros":32193,"calls":["get_user",{"micros":12441},"add_authorized_ip",{"micros":1189},"get_guilds",{"micros":3500},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":6,"calls":[]},"presence_connect",{"micros":11896,"calls":[]}]}]}] (Session ID: 43c91c9b160b0e9d2695c9933b4135f1).
+2021-07-21 23:04:36,630 Cleaning up tasks.
+2021-07-21 23:04:36,630 Cleaning up after 1 tasks.
+2021-07-21 23:04:36,631 All tasks finished cancelling.
+2021-07-21 23:04:36,633 Closing the event loop.
+2021-07-21 23:04:38,427 Helper initializing.
+2021-07-21 23:04:38,428 Main initializing.
+2021-07-21 23:04:38,454 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 23:04:38,457 logging in using static token
+2021-07-21 23:04:38,782 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 23:04:38,882 Shard ID None has connected to Gateway: ["gateway-prd-main-jw3c",{"micros":57988,"calls":["discord-sessions-blue-prd-2-116",{"micros":56404,"calls":["start_session",{"micros":35465,"calls":["api-prd-main-r3zp",{"micros":31808,"calls":["get_user",{"micros":4244},"add_authorized_ip",{"micros":2118},"get_guilds",{"micros":3525},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 239c0c1c75de29ecf3adb5416a04259b).
+2021-07-21 23:05:34,558 Cleaning up tasks.
+2021-07-21 23:05:34,559 Cleaning up after 1 tasks.
+2021-07-21 23:05:34,567 All tasks finished cancelling.
+2021-07-21 23:05:34,567 Closing the event loop.
+2021-07-21 23:05:36,717 Helper initializing.
+2021-07-21 23:05:36,718 Main initializing.
+2021-07-21 23:05:36,758 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 23:05:36,761 logging in using static token
+2021-07-21 23:05:37,049 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 23:05:37,163 Shard ID None has connected to Gateway: ["gateway-prd-main-1nq9",{"micros":69937,"calls":["discord-sessions-blue-prd-2-18",{"micros":60962,"calls":["start_session",{"micros":25554,"calls":["api-prd-main-pbr4",{"micros":22419,"calls":["get_user",{"micros":2674},"add_authorized_ip",{"micros":1238},"get_guilds",{"micros":2997},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":6297,"calls":[]}]}]}] (Session ID: cb0775d2270eb8541daa9bbacedca720).
+2021-07-21 23:06:40,135 Cleaning up tasks.
+2021-07-21 23:06:40,137 Cleaning up after 1 tasks.
+2021-07-21 23:06:40,142 All tasks finished cancelling.
+2021-07-21 23:06:40,143 Closing the event loop.
+2021-07-21 23:06:41,899 Helper initializing.
+2021-07-21 23:06:41,900 Main initializing.
+2021-07-21 23:06:41,924 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 23:06:41,928 logging in using static token
+2021-07-21 23:06:42,227 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 23:06:42,326 Shard ID None has connected to Gateway: ["gateway-prd-main-7k1z",{"micros":54349,"calls":["discord-sessions-blue-prd-2-22",{"micros":53411,"calls":["start_session",{"micros":29487,"calls":["api-prd-main-pfkg",{"micros":23973,"calls":["get_user",{"micros":2562},"add_authorized_ip",{"micros":1170},"get_guilds",{"micros":3353},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":12278,"calls":[]}]}]}] (Session ID: a01e07dfa086568749dcb5ebab939462).
+2021-07-21 23:11:50,511 nya (she/they) u_u[183] about to be added elo.
+2021-07-21 23:11:50,511 nya (she/they) u_u[183] name after elo added: nya (she/they) u_u[194]
+2021-07-21 23:11:50,511 testdummy[8] about to be added elo.
+2021-07-21 23:11:50,511 testdummy[8] name after elo added: testdummy[0]
+2021-07-21 23:12:31,259 testdummy[0] about to be added elo.
+2021-07-21 23:12:31,259 testdummy[0] name after elo added: testdummy[30]
+2021-07-21 23:12:31,260 nya (she/they) u_u[194] about to be added elo.
+2021-07-21 23:12:31,260 nya (she/they) u_u[194] name after elo added: nya (she/they) u_u[164]
+2021-07-21 23:15:21,199 Cleaning up tasks.
+2021-07-21 23:15:21,200 Cleaning up after 8 tasks.
+2021-07-21 23:15:21,201 All tasks finished cancelling.
+2021-07-21 23:15:21,201 Closing the event loop.
+2021-07-21 23:15:53,959 Helper initializing.
+2021-07-21 23:15:53,960 Main initializing.
+2021-07-21 23:15:53,980 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 23:15:53,982 logging in using static token
+2021-07-21 23:15:54,229 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 23:15:54,312 Shard ID None has connected to Gateway: ["gateway-prd-main-sdbx",{"micros":41687,"calls":["discord-sessions-blue-prd-2-20",{"micros":40801,"calls":["start_session",{"micros":32633,"calls":["api-prd-main-mw1b",{"micros":28177,"calls":["get_user",{"micros":2789},"add_authorized_ip",{"micros":1390},"get_guilds",{"micros":5271},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":73,"calls":[]}]}]}] (Session ID: 84cb5657a3008f6405ec54afc83ae4b9).
+2021-07-21 23:18:17,773 Ovrpay[163] about to be added elo.
+2021-07-21 23:18:17,773 Ovrpay[163] name after elo added: Ovrpay[174]
+2021-07-21 23:18:17,773 tommopolis about to be added elo.
+2021-07-21 23:18:17,773 None name after elo added: tommopolis[0]
+2021-07-21 23:18:17,859 User name: ovrpay Exception line 256 main
+2021-07-21 23:19:18,952 tommopolis[0] about to be added elo.
+2021-07-21 23:19:18,952 tommopolis[0] name after elo added: tommopolis[29]
+2021-07-21 23:19:18,952 Ovrpay[163] about to be added elo.
+2021-07-21 23:19:18,952 Ovrpay[163] name after elo added: Ovrpay[134]
+2021-07-21 23:19:19,183 User name: ovrpay Exception line 262 main
+2021-07-21 23:19:19,325 Unable to send message to ovrpay, points added to tommopolis
+
+2021-07-21 23:20:23,495 Cleaning up tasks.
+2021-07-21 23:20:23,495 Cleaning up after 2 tasks.
+2021-07-21 23:20:23,497 All tasks finished cancelling.
+2021-07-21 23:20:23,497 Closing the event loop.
+2021-07-21 23:20:28,497 Helper initializing.
+2021-07-21 23:20:28,498 Main initializing.
+2021-07-21 23:20:28,513 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 23:20:28,516 logging in using static token
+2021-07-21 23:20:28,924 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 23:20:29,053 Shard ID None has connected to Gateway: ["gateway-prd-main-6mgz",{"micros":77825,"calls":["discord-sessions-blue-prd-2-51",{"micros":77028,"calls":["start_session",{"micros":36095,"calls":["api-prd-main-h6bc",{"micros":32691,"calls":["get_user",{"micros":4011},"add_authorized_ip",{"micros":1471},"get_guilds",{"micros":5341},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":25116,"calls":[]}]}]}] (Session ID: a143b5e9f7ed5caa86c5e37ad28f7015).
+2021-07-21 23:21:09,896 Cleaning up tasks.
+2021-07-21 23:21:09,896 Cleaning up after 1 tasks.
+2021-07-21 23:21:09,897 All tasks finished cancelling.
+2021-07-21 23:21:09,897 Closing the event loop.
+2021-07-21 23:21:24,838 Helper initializing.
+2021-07-21 23:21:24,839 Main initializing.
+2021-07-21 23:21:24,851 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 23:21:24,852 logging in using static token
+2021-07-21 23:21:25,086 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 23:21:25,208 Shard ID None has connected to Gateway: ["gateway-prd-main-f4bs",{"micros":80388,"calls":["discord-sessions-blue-prd-2-79",{"micros":77978,"calls":["start_session",{"micros":38689,"calls":["api-prd-main-qpl2",{"micros":35532,"calls":["get_user",{"micros":9476},"add_authorized_ip",{"micros":1439},"get_guilds",{"micros":4548},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":20682,"calls":[]}]}]}] (Session ID: 29f8374feddc612cdef9038502f4ee89).
+2021-07-21 23:23:25,477 Cleaning up tasks.
+2021-07-21 23:23:25,477 Cleaning up after 1 tasks.
+2021-07-21 23:23:25,479 All tasks finished cancelling.
+2021-07-21 23:23:25,480 Closing the event loop.
+2021-07-21 23:23:26,927 Helper initializing.
+2021-07-21 23:23:26,928 Main initializing.
+2021-07-21 23:23:26,943 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 23:23:26,945 logging in using static token
+2021-07-21 23:23:27,193 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 23:23:27,280 Shard ID None has connected to Gateway: ["gateway-prd-main-b899",{"micros":46918,"calls":["discord-sessions-blue-prd-2-94",{"micros":45733,"calls":["start_session",{"micros":37805,"calls":["api-prd-main-8h16",{"micros":32599,"calls":["get_user",{"micros":2552},"add_authorized_ip",{"micros":2827},"get_guilds",{"micros":4874},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":95,"calls":[]}]}]}] (Session ID: f8185d57efe1dbe69c21364dfa6d5788).
+2021-07-21 23:30:00,945 Cleaning up tasks.
+2021-07-21 23:30:00,945 Cleaning up after 1 tasks.
+2021-07-21 23:30:00,947 All tasks finished cancelling.
+2021-07-21 23:30:00,947 Closing the event loop.
+2021-07-21 23:30:08,876 Helper initializing.
+2021-07-21 23:30:08,877 Main initializing.
+2021-07-21 23:30:08,891 PyNaCl is not installed, voice will NOT be supported
+2021-07-21 23:30:08,893 logging in using static token
+2021-07-21 23:30:09,122 Shard ID None has sent the IDENTIFY payload.
+2021-07-21 23:30:09,244 Shard ID None has connected to Gateway: ["gateway-prd-main-l4r2",{"micros":75180,"calls":["discord-sessions-blue-prd-2-56",{"micros":73950,"calls":["start_session",{"micros":31842,"calls":["api-prd-main-drt2",{"micros":28882,"calls":["get_user",{"micros":2645},"add_authorized_ip",{"micros":1232},"get_guilds",{"micros":4148},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":14317,"calls":[]}]}]}] (Session ID: 20614a1ec34c1d0dee4704985cec0bba).
