@@ -494,3 +494,80 @@
 2021-07-21 23:58:33,722 logging in using static token
 2021-07-21 23:58:33,979 Shard ID None has sent the IDENTIFY payload.
 2021-07-21 23:58:34,168 Shard ID None has connected to Gateway: ["gateway-prd-main-jzx3",{"micros":147865,"calls":["discord-sessions-blue-prd-2-61",{"micros":146184,"calls":["start_session",{"micros":56955,"calls":["api-prd-main-jcxv",{"micros":53462,"calls":["get_user",{"micros":4964},"add_authorized_ip",{"micros":2375},"get_guilds",{"micros":14064},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":44872,"calls":[]}]}]}] (Session ID: d81228ae137ad547b011b8d5db21b270).
+2021-07-22 00:00:49,677 testdummy[167] about to be added elo.
+2021-07-22 00:00:49,677 testdummy[167] name after elo added: testdummy[266]
+2021-07-22 00:00:49,677 Ovrpay[163] about to be added elo.
+2021-07-22 00:00:49,677 Ovrpay[163] name after elo added: Ovrpay[64]
+2021-07-22 00:00:49,871 User name: ovrpay Exception line 262 main
+2021-07-22 00:00:50,123 Unable to send message to ovrpay, points added to testdumdum
+
+2021-07-22 00:03:46,795 Cleaning up tasks.
+2021-07-22 00:03:46,796 Cleaning up after 1 tasks.
+2021-07-22 00:03:46,798 All tasks finished cancelling.
+2021-07-22 00:03:46,798 Closing the event loop.
+2021-07-22 00:03:49,316 Helper initializing.
+2021-07-22 00:03:49,316 Main initializing.
+2021-07-22 00:03:49,342 PyNaCl is not installed, voice will NOT be supported
+2021-07-22 00:03:49,345 logging in using static token
+2021-07-22 00:03:49,598 Shard ID None has sent the IDENTIFY payload.
+2021-07-22 00:03:49,730 Shard ID None has connected to Gateway: ["gateway-prd-main-wsrp",{"micros":86958,"calls":["discord-sessions-blue-prd-2-30",{"micros":78220,"calls":["start_session",{"micros":69369,"calls":["api-prd-main-86hw",{"micros":63681,"calls":["get_user",{"micros":3830},"add_authorized_ip",{"micros":1928},"get_guilds",{"micros":8276},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":3953,"calls":[]}]}]}] (Session ID: 0c06f6a65e021670dd4a534383c388c6).
+2021-07-22 00:11:35,478 Helper initializing.
+2021-07-22 00:11:35,480 Main initializing.
+2021-07-22 00:11:35,530 PyNaCl is not installed, voice will NOT be supported
+2021-07-22 00:11:35,538 logging in using static token
+2021-07-22 00:11:35,817 Shard ID None has sent the IDENTIFY payload.
+2021-07-22 00:11:35,954 Shard ID None has connected to Gateway: ["gateway-prd-main-8g65",{"micros":97945,"calls":["discord-sessions-blue-prd-2-60",{"micros":95022,"calls":["start_session",{"micros":31715,"calls":["api-prd-main-nhhb",{"micros":28793,"calls":["get_user",{"micros":2385},"add_authorized_ip",{"micros":1159},"get_guilds",{"micros":7818},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":57351,"calls":[]}]}]}] (Session ID: 87d37ad0624fa790572ee8dd780c1696).
+2021-07-22 00:13:48,040 Cleaning up tasks.
+2021-07-22 00:13:48,040 Cleaning up after 1 tasks.
+2021-07-22 00:13:48,041 All tasks finished cancelling.
+2021-07-22 00:13:48,041 Closing the event loop.
+2021-07-22 00:13:49,849 Helper initializing.
+2021-07-22 00:13:49,850 Main initializing.
+2021-07-22 00:13:49,890 PyNaCl is not installed, voice will NOT be supported
+2021-07-22 00:13:49,895 logging in using static token
+2021-07-22 00:13:50,110 Shard ID None has sent the IDENTIFY payload.
+2021-07-22 00:13:50,281 Shard ID None has connected to Gateway: ["gateway-prd-main-g9f5",{"micros":130632,"calls":["discord-sessions-blue-prd-2-112",{"micros":122449,"calls":["start_session",{"micros":93047,"calls":["api-prd-main-h6bc",{"micros":81641,"calls":["get_user",{"micros":5872},"add_authorized_ip",{"micros":3973},"get_guilds",{"micros":18173},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":16473,"calls":[]}]}]}] (Session ID: 63b9388b11b2d6ee5a8f7dccb98ee6b0).
+2021-07-22 00:15:39,382 Cleaning up tasks.
+2021-07-22 00:15:39,383 Cleaning up after 1 tasks.
+2021-07-22 00:15:39,384 All tasks finished cancelling.
+2021-07-22 00:15:39,384 Closing the event loop.
+2021-07-22 00:15:41,338 Helper initializing.
+2021-07-22 00:15:41,338 Main initializing.
+2021-07-22 00:15:41,358 PyNaCl is not installed, voice will NOT be supported
+2021-07-22 00:15:41,359 logging in using static token
+2021-07-22 00:15:41,603 Shard ID None has sent the IDENTIFY payload.
+2021-07-22 00:15:41,732 Shard ID None has connected to Gateway: ["gateway-prd-main-dj54",{"micros":85288,"calls":["discord-sessions-blue-prd-2-76",{"micros":84350,"calls":["start_session",{"micros":31406,"calls":["api-prd-main-xtc7",{"micros":26563,"calls":["get_user",{"micros":2602},"add_authorized_ip",{"micros":1422},"get_guilds",{"micros":5372},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":44382,"calls":[]}]}]}] (Session ID: 7a91683468ab7608d11d9ffb90bc4966).
+2021-07-22 00:17:14,762 Cleaning up tasks.
+2021-07-22 00:17:14,762 Cleaning up after 1 tasks.
+2021-07-22 00:17:14,763 All tasks finished cancelling.
+2021-07-22 00:17:14,763 Closing the event loop.
+2021-07-22 00:17:16,293 Helper initializing.
+2021-07-22 00:17:16,293 Main initializing.
+2021-07-22 00:17:16,318 PyNaCl is not installed, voice will NOT be supported
+2021-07-22 00:17:16,320 logging in using static token
+2021-07-22 00:17:16,570 Shard ID None has sent the IDENTIFY payload.
+2021-07-22 00:17:16,703 Shard ID None has connected to Gateway: ["gateway-prd-main-gfgh",{"micros":86943,"calls":["discord-sessions-blue-prd-2-73",{"micros":85588,"calls":["start_session",{"micros":44941,"calls":["api-prd-main-q7w6",{"micros":41588,"calls":["get_user",{"micros":3188},"add_authorized_ip",{"micros":1735},"get_guilds",{"micros":20621},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":23,"calls":[]}]}]}] (Session ID: 32ad45d320e73c2eb966e32d0fb03b9c).
+2021-07-22 00:17:40,090 Cleaning up tasks.
+2021-07-22 00:17:40,090 Cleaning up after 1 tasks.
+2021-07-22 00:17:40,092 All tasks finished cancelling.
+2021-07-22 00:17:40,093 Closing the event loop.
+2021-07-22 00:17:41,533 Helper initializing.
+2021-07-22 00:17:41,534 Main initializing.
+2021-07-22 00:17:41,564 PyNaCl is not installed, voice will NOT be supported
+2021-07-22 00:17:41,566 logging in using static token
+2021-07-22 00:17:41,784 Shard ID None has sent the IDENTIFY payload.
+2021-07-22 00:17:41,859 Shard ID None has connected to Gateway: ["gateway-prd-main-5sn4",{"micros":31960,"calls":["discord-sessions-blue-prd-2-8",{"micros":29577,"calls":["start_session",{"micros":27453,"calls":["api-prd-main-pvjt",{"micros":24703,"calls":["get_user",{"micros":2382},"add_authorized_ip",{"micros":1420},"get_guilds",{"micros":3754},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1633,"calls":[]}]}]}] (Session ID: 366f17cc1351674494f849cd7721d75f).
+2021-07-22 00:18:28,071 Cleaning up tasks.
+2021-07-22 00:18:28,071 Cleaning up after 1 tasks.
+2021-07-22 00:18:28,072 All tasks finished cancelling.
+2021-07-22 00:18:28,073 Closing the event loop.
+2021-07-22 00:18:35,145 Helper initializing.
+2021-07-22 00:18:35,145 Main initializing.
+2021-07-22 00:18:35,171 PyNaCl is not installed, voice will NOT be supported
+2021-07-22 00:18:35,184 logging in using static token
+2021-07-22 00:18:35,418 Shard ID None has sent the IDENTIFY payload.
+2021-07-22 00:18:35,533 Shard ID None has connected to Gateway: ["gateway-prd-main-qn3x",{"micros":72472,"calls":["discord-sessions-blue-prd-2-61",{"micros":64161,"calls":["start_session",{"micros":60320,"calls":["api-prd-main-30tg",{"micros":57557,"calls":["get_user",{"micros":5194},"add_authorized_ip",{"micros":3729},"get_guilds",{"micros":7102},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 1a546007c3042c84315b1931377f0b89).
+2021-07-22 00:22:07,970 Cleaning up tasks.
+2021-07-22 00:22:07,970 Cleaning up after 1 tasks.
+2021-07-22 00:22:07,972 All tasks finished cancelling.
+2021-07-22 00:22:07,972 Closing the event loop.

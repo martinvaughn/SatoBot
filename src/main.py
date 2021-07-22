@@ -36,7 +36,7 @@ TEN_MIN = 600  # 10 minutes in seconds
 
 Intents = discord.Intents()
 intents = Intents.all()
-client = commands.Bot(command_prefix='!', intents=intents)  # Or client = discord.Client(intents = intents)
+client = commands.Bot(command_prefix='!', intents=intents, help_command=None)  # Or client = discord.Client(intents = intents)
 
 
 @client.event
@@ -150,7 +150,7 @@ async def slb(ctx, *args):
         elo_list.append((member.nick, current_elo))
     sorted_elo_list = sorted(elo_list, key=lambda x: x[1], reverse=True)
     await send_channel_message(f''' 
-    ╭─── SATO LEADERBOARD ───╮
+    **╭─── SATO LEADERBOARD ───╮
      1. {sorted_elo_list[0][0]}
      2. {sorted_elo_list[1][0]}
      3. {sorted_elo_list[2][0]}
@@ -161,7 +161,7 @@ async def slb(ctx, *args):
      8. {sorted_elo_list[7][0]}
      9. {sorted_elo_list[8][0]}
      10. {sorted_elo_list[9][0]}
-╰─── SATO LEADERBOARD ───╯''', CHANNEL_ID)
+╰─── SATO LEADERBOARD ───╯**''', CHANNEL_ID)
     # elo_list.sort( BOOM )
 
 
