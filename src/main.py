@@ -17,12 +17,12 @@ logger.setLevel(20)
 
 logger.warning("Main initializing.")
 
-ADMIN_ROLE_ID = 858476845921730562 # 848423895408705546
-CHANNEL_ID = 858467481449922571 # ID of channel to send most messages.
-RESULTS_ID = 858467749662556220 # ID of channel to send results.
-GUILD_ID = 702601188247601174 # ID of the server in use.
+ADMIN_ROLE_ID = 868403838112112670 # The Ref!
+CHANNEL_ID = 867126602659921971 # ID of channel to send most messages.
+RESULTS_ID = 867126697127837706 # ID of channel to send results.
+GUILD_ID = 593831303816937502 # ID of the server in use.
 
-CHEATER_ROLE_ID = 867538252616564746
+CHEATER_ROLE_ID = 868403903681691678
 SAME_USER_PLAY_LIMIT = 10
 
 # NAME_CHANGE_QUEUE = []  # IDs of names that can be changed --> For when people can change name
@@ -30,7 +30,7 @@ MESSAGE_CAN_DELETE = {}  # Messages that can be deleted by the bot.
 MESSAGE_CAN_DELETE_DISPUTES = []  # Same as ^ but also for disputed messages.
 # CAN_ADD_IDS = []  # List of IDs of who can have Elo added. Only people who've played can have elo added.
 
-TIME_DELETE = 300  # 86400 seconds == 24 hours
+TIME_DELETE = 1800  # 86400 seconds == 24 hours
 COUNT = 0
 TEN_MIN = 600  # 10 minutes in seconds
 
@@ -72,7 +72,7 @@ async def send_dm_to_loser(winner: discord.Member, loser: discord.Member):
     channel = await loser.create_dm()
     try:
         message = await channel.send(
-            f"{winner.mention} claims you lost a match to them. Please confirm.\nNOTE: This message will delete after your response or {int(TIME_DELETE / 3600)} hrs.",
+            f"{winner.mention} claims you lost a match to them. Please confirm.\nNOTE: This message will delete after your response or {int(TIME_DELETE / 60)} hrs.",
             delete_after=TIME_DELETE)
     except:
         await send_channel_message(f"Unable to send dm to {loser.mention}. Adding points automatically.", CHANNEL_ID)
@@ -140,8 +140,8 @@ async def update_name(ctx, *args):
 
 
 # TOURNE MODE:
-@client.command(name="slb")
-async def slb(ctx, *args):
+@client.command(name="lb")
+async def leaderboard(ctx, *args):
     elo_list = []
     guild = client.get_guild(GUILD_ID)
     for member in guild.members:
@@ -158,7 +158,8 @@ async def slb(ctx, *args):
       length = len(sorted_elo_list)
     for i in range(0, length):
       message_string += f"{i + 1}. " + sorted_elo_list[i][0] + "\n"
-    await send_channel_message(f''' 
+    if message_string is not None:
+      await send_channel_message(f''' 
     ╭────  SATO LEADERBOARD  ────╮
 {message_string}
 ╰──────────────────╯''', CHANNEL_ID)
@@ -205,21 +206,21 @@ async def checkCheaters(ctx, *args):
    
 
 # TOURNE MODE:
-@client.command(name="sping")
+@client.command(name="ping")
 @has_permissions(administrator=True)
 async def ping(ctx, *args):
     await ctx.message.reply("You do be pinging me doe")
 
 # TOURNE MODE:
-@client.command(name="shelp")
+@client.command(name="help")
 async def sato_help(ctx, *args):
     await ctx.message.reply('''
     ╭─── SATO COMMANDS ───╮
 
     1. !beat - Tag whoever you beat.
-    2. !slb - Show Leaderboard.
+    2. !lb - 1v1 Leaderboard.
     3. !ref - Catch cheaters.
-    4. !update (admin only) - Update points.
+    4. !update (admin only) - Update name/points.
 
 
 ╰─── SATO COMMANDS ───╯
@@ -303,7 +304,7 @@ async def update_elo(winner, loser):
     except discord.errors.HTTPException:
         logger.warning(f"User name: {loser.name} Exception line 262 main")
     # send winning message in results channel.
-    await send_channel_message(f"------------\n\nWinner: {winner.mention} Points Added: {int(points)}\nLoser: {loser.mention} Points Taken: {int(points)}\n\n------------", RESULTS_ID)
+    await send_channel_message(f"╭──────────────────╮\n\nWinner: {winner.mention} Points Added: {int(points)}\nLoser: {loser.mention} Points Taken: {int(points)}\n\n╰──────────────────╯", RESULTS_ID)
 
 
 async def confirm_game(winner, loser):

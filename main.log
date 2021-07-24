@@ -1,0 +1,35 @@
+2021-07-24 08:36:31,199 Helper initializing.
+2021-07-24 08:36:31,201 Main initializing.
+2021-07-24 08:36:31,220 PyNaCl is not installed, voice will NOT be supported
+2021-07-24 08:36:31,222 logging in using static token
+2021-07-24 08:36:31,444 Shard ID None has sent the IDENTIFY payload.
+2021-07-24 08:36:31,662 Shard ID None has connected to Gateway: ["gateway-prd-main-gmc4",{"micros":181391,"calls":["discord-sessions-blue-prd-2-75",{"micros":180665,"calls":["start_session",{"micros":120016,"calls":["api-prd-main-nhk9",{"micros":88527,"calls":["get_user",{"micros":7345},"add_authorized_ip",{"micros":5027},"get_guilds",{"micros":38676},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":18835,"calls":[]}]}]}] (Session ID: 90da300f18ab120494a8d39e46380075).
+2021-07-24 08:40:52,825 Cleaning up tasks.
+2021-07-24 08:40:52,825 Cleaning up after 1 tasks.
+2021-07-24 08:40:52,827 All tasks finished cancelling.
+2021-07-24 08:40:52,828 Closing the event loop.
+2021-07-24 08:40:54,331 Helper initializing.
+2021-07-24 08:40:54,331 Main initializing.
+2021-07-24 08:40:54,356 PyNaCl is not installed, voice will NOT be supported
+2021-07-24 08:40:54,360 logging in using static token
+2021-07-24 08:40:54,621 Shard ID None has sent the IDENTIFY payload.
+2021-07-24 08:40:54,709 Shard ID None has connected to Gateway: ["gateway-prd-main-7qwt",{"micros":50616,"calls":["discord-sessions-blue-prd-2-129",{"micros":49245,"calls":["start_session",{"micros":33667,"calls":["api-prd-main-7zp3",{"micros":30891,"calls":["get_user",{"micros":6673},"add_authorized_ip",{"micros":1973},"get_guilds",{"micros":4098},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":588,"calls":[]}]}]}] (Session ID: 06673325a5c81f7bd9c9de298ee92a74).
+2021-07-24 08:42:03,781 martinvaughn[0] about to be added elo.
+2021-07-24 08:42:03,782 martinvaughn[0] name after elo added: martinvaughn[100]
+2021-07-24 08:42:03,782 testdumdum about to be added elo.
+2021-07-24 08:42:03,782 None name after elo added: testdumdum[0]
+2021-07-24 08:44:31,069 testdumdum[0] about to be added elo.
+2021-07-24 08:44:31,069 testdumdum[0] name after elo added: testdumdum[128]
+2021-07-24 08:44:31,069 martinvaughn[100] about to be added elo.
+2021-07-24 08:44:31,069 martinvaughn[100] name after elo added: martinvaughn[0]
+2021-07-24 08:45:03,268 martinvaughn[0] about to be added elo.
+2021-07-24 08:45:03,268 martinvaughn[0] name after elo added: martinvaughn[100]
+2021-07-24 08:45:03,268 ovrpay about to be added elo.
+2021-07-24 08:45:03,268 None name after elo added: ovrpay[0]
+2021-07-24 08:45:03,467 User name: ovrpay Exception line 262 main
+2021-07-24 08:45:03,636 Unable to send message to ovrpay, points added to martinvaughn
+
+2021-07-24 08:49:36,280 Cleaning up tasks.
+2021-07-24 08:49:36,280 Cleaning up after 1 tasks.
+2021-07-24 08:49:36,281 All tasks finished cancelling.
+2021-07-24 08:49:36,282 Closing the event loop.

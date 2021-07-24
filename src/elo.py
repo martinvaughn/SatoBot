@@ -2,13 +2,11 @@ import helper
 
 WEIGHT = 200
 ROLES = [
-  858419991477223484, # Academy Student 
-  858420330614751272, # LAG GUARDIAN
-  858420594683805706, # LAG ELITE 
-  858420672112230410, # LAG CONQUEROR
-  858420748690259979, # LAG SHINOBI
-  858420824406753340, # LAG KAGE
-  858421193824272425  # LAG RONIN
+  868363353054138378, # Academy Student 
+  868363886401822721, # LAG GUARDIAN
+  868364107307434064, # LAG ELITE 
+  868364662423584849, # LAG CONQUEROR
+  868364895354224702, # LAG SHINOBI
 ]
 
 
@@ -21,12 +19,8 @@ def get_role_id(score):
         return ROLES[2]
     elif score < 1999:
         return ROLES[3]
-    elif score < 2499:
-        return ROLES[4]
-    elif score < 2999:
-        return ROLES[5]
     else:
-        return ROLES[6]
+        return ROLES[4]
 
 
 def calc_elo(winner, loser):
