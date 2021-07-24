@@ -30,7 +30,7 @@ MESSAGE_CAN_DELETE = {}  # Messages that can be deleted by the bot.
 MESSAGE_CAN_DELETE_DISPUTES = []  # Same as ^ but also for disputed messages.
 # CAN_ADD_IDS = []  # List of IDs of who can have Elo added. Only people who've played can have elo added.
 
-TIME_DELETE = 43200  # 86400 seconds == 24 hours
+TIME_DELETE = 300  # 86400 seconds == 24 hours
 COUNT = 0
 TEN_MIN = 600  # 10 minutes in seconds
 
@@ -147,22 +147,21 @@ async def slb(ctx, *args):
     for member in guild.members:
       if member.nick is not None:
         current_elo = elo.get_current_elo(member)
-        elo_list.append((member.nick, current_elo))
+        if current_elo > 0:
+          elo_list.append((member.nick, current_elo))
     sorted_elo_list = sorted(elo_list, key=lambda x: x[1], reverse=True)
+    message_string = ""
+    length = 0
+    if len(sorted_elo_list) > 9:
+      length = 10
+    else:
+      length = len(sorted_elo_list)
+    for i in range(0, length):
+      message_string += f"{i + 1}. " + sorted_elo_list[i][0] + "\n"
     await send_channel_message(f''' 
-    **╭─── SATO LEADERBOARD ───╮
-     1. {sorted_elo_list[0][0]}
-     2. {sorted_elo_list[1][0]}
-     3. {sorted_elo_list[2][0]}
-     4. {sorted_elo_list[3][0]}
-     5. {sorted_elo_list[4][0]}
-     6. {sorted_elo_list[5][0]}
-     7. {sorted_elo_list[6][0]}
-     8. {sorted_elo_list[7][0]}
-     9. {sorted_elo_list[8][0]}
-     10. {sorted_elo_list[9][0]}
-╰─── SATO LEADERBOARD ───╯**''', CHANNEL_ID)
-    # elo_list.sort( BOOM )
+    ╭────  SATO LEADERBOARD  ────╮
+{message_string}
+╰──────────────────╯''', CHANNEL_ID)
 
 
 # TOURNE MODE:
@@ -225,6 +224,27 @@ async def sato_help(ctx, *args):
 
 ╰─── SATO COMMANDS ───╯
     ''')
+
+
+# TOURNE MODE NEW:
+@client.command(name="allScores")
+@has_permissions(administrator=True)
+async def all_scores(ctx, *args):
+    elo_list = []
+    guild = client.get_guild(GUILD_ID)
+    for member in guild.members:
+      if member.nick is not None:
+        current_elo = elo.get_current_elo(member)
+        if current_elo > 0:
+          elo_list.append((member.nick, current_elo))
+    sorted_elo_list = sorted(elo_list, key=lambda x: x[1], reverse=True)
+    message_string = ""
+    for i in range(0, len(sorted_elo_list)):
+      message_string += f"{i + 1}. " + sorted_elo_list[i][0] + "\n"
+    await send_dm(ctx.message.author, f''' 
+    ╭────  SATO FULL LEADERBOARD  ────╮
+{message_string}
+╰──────────────────╯''')
 
 # Use on_raw_message_delete if you want it to check messages from before the last loading.
 @client.event
